@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ko" xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>dragAndDrop</title>
+    <meta
+      name="viewport"
+      content="width=768,height=1024,initial-scale=1.0, user-scalable=no, maximum-scale=1.0"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="stylesheet" type="text/css" href="css/common.css" />
+    <link rel="stylesheet" type="text/css" href="css/dragAndDrop.css" />
+    <!-- <script src="js/jquery-1.11.0.min.js"></script> -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/drag.js"></script>
+  </head>
+
+  <body>
+    <div
+      class="wrap"
+      data-dtext_index="dtext_cls_image"
+      title="각 물체를 알맞은 위치에 놓아 보세요."
+    >
+      <!--[[ wrap Start ]]-->
+      <div class="container">
+        <!--[[ Drag영역 끝 ]]-->
+        <div class="mainWrap">
+          <div class="dragtop">
+            <div class="dr_container c1" data-role-val="0"></div>
+            <div class="dr_container c2" data-role-val="1"></div>
+            <div class="dr_container c3" data-role-val="2"></div>
+            <div class="dr_container c4" data-role-val="3"></div>
+            <div class="dr_container c5" data-role-val="4"></div>
+            <div class="dr_container_bg">
+              <img src="images/dragAndDrop/31_top.png" alt="" />
+            </div>
+            <div class="mainwrap_bg mainwrap_bg_01">
+              <p>금속</p>
+            </div>
+            <div class="mainwrap_bg mainwrap_bg_02">
+              <p>나무</p>
+            </div>
+            <div class="mainwrap_bg mainwrap_bg_03">
+              <p>플라스틱</p>
+            </div>
+            <div class="mainwrap_bg mainwrap_bg_04">
+              <p>고무</p>
+            </div>
+            <div class="mainwrap_bg mainwrap_bg_05">
+              <p>밀가루</p>
+            </div>
+          </div>
+
+          <div class="dragwrap">
+            <div class="drag v1 dragOX drag_0">
+              <div class="dr_item" data-mark="4">
+                <img src="images/dragAndDrop/5_p03.png" alt="" />
+                <p>과자</p>
+              </div>
+              <div class="dr_item" data-mark="0">
+                <img src="images/dragAndDrop/1_p04.png" alt="" />
+                <p>집게</p>
+              </div>
+              <div class="dr_item" data-mark="1">
+                <img src="images/dragAndDrop/2_p02.png" alt="" />
+                <p>야구 방망이</p>
+              </div>
+              <div class="dr_item" data-mark="2">
+                <img src="images/dragAndDrop/3_p01.png" alt="" />
+                <p>모양 자</p>
+              </div>
+              <div class="dr_item" data-mark="3">
+                <img src="images/dragAndDrop/4_p03.png" alt="" />
+                <p>자동차 타이어</p>
+              </div>
+              <div class="dr_item" data-mark="1">
+                <img src="images/dragAndDrop/2_p03.png" alt="" />
+                <p>나무 의자</p>
+              </div>
+              <div class="dr_item" data-mark="4">
+                <img src="images/dragAndDrop/5_p01.png" alt="" />
+                <p>국수</p>
+              </div>
+              <div class="dr_item" data-mark="0">
+                <img src="images/dragAndDrop/1_p02.png" alt="" />
+                <p>열쇠</p>
+              </div>
+              <div class="dr_item" data-mark="0">
+                <img src="images/dragAndDrop/1_p01.png" alt="" />
+                <p>자물쇠</p>
+              </div>
+              <div class="dr_item" data-mark="2">
+                <img src="images/dragAndDrop/3_p02.png" alt="" />
+                <p>탁구공</p>
+              </div>
+              <div class="dr_item" data-mark="3">
+                <img src="images/dragAndDrop/4_p02.png" alt="" />
+                <p>고무장갑</p>
+              </div>
+              <div class="dr_item" data-mark="4">
+                <img src="images/dragAndDrop/5_p02.png" alt="" />
+                <p>빵</p>
+              </div>
+              <div class="dr_item" data-mark="1">
+                <img src="images/dragAndDrop/2_p01.png" alt="" />
+                <p>책꽂이</p>
+              </div>
+              <div class="dr_item" data-mark="2">
+                <img src="images/dragAndDrop/3_p03.png" alt="" />
+                <p>블록</p>
+              </div>
+              <div class="dr_item" data-mark="0">
+                <img src="images/dragAndDrop/1_p03.png" alt="" />
+                <p>손톱깍이</p>
+              </div>
+              <div class="dr_item" data-mark="3">
+                <img src="images/dragAndDrop/4_p01.png" alt="" />
+                <p>고무줄</p>
+              </div>
+            </div>
+          </div>
+          <div class="btn btnReset dragReset">
+            <div class="ico"></div>
+          </div>
+        </div>
+        <div class="midWrap">
+          <p class="MyeongjoB">
+            우리 주변에는 여러 가지물체가 있으며, 그 물체를 이루는 재료를
+            물질이라고 합니다. 예를 들면 금속으로 만든 클립에서물체는 클립,
+            물질은 금속입니다.
+          </p>
+          <p class="MyeongjoB">
+            물질에는 금속, 나무 플라스틱, 고무, 밀가루, 유리, 종이, 섬유, 가죽
+            등 여러 가지가 있습니다.
+          </p>
+        </div>
+        <div class="menuTabs normal">
+          <ul class="tabTitle">
+            <li class="selected">생각 쑥쑥</li>
+            <li>확인 꼭꼭</li>
+          </ul>
+
+          <div class="tabContent">
+            <div class="selected">
+              <p class="tabTitle">
+                길 찾기 놀이판에 있는 여러 가지 물체를 물질에 따라 분류해
+                볼까요?
+              </p>
+
+              <table>
+                <tbody>
+                  <tr>
+                    <td>물질</td>
+                    <td>
+                      <div class="tdBox">
+                        <textarea></textarea>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="tdBox">
+                        <textarea></textarea>
+                      </div>
+                    </td>
+
+                    <td>
+                      <div class="tdBox">
+                        <textarea></textarea>
+                      </div>
+                    </td>
+
+                    <td>
+                      <div class="tdBox">
+                        <textarea></textarea>
+                      </div>
+                    </td>
+
+                    <td>
+                      <div class="tdBox">
+                        <textarea></textarea>
+                      </div>
+                    </td>
+
+                    <td>
+                      <div class="tdBox">
+                        <textarea></textarea>
+                      </div>
+                    </td>
+
+                    <td>
+                      <div class="tdBox">
+                        <textarea></textarea>
+                      </div>
+                    </td>
+
+                    <td>
+                      <div class="tdBox">
+                        <textarea></textarea>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>물체</td>
+                    <td>
+                      <div class="tdBox">
+                        <textarea></textarea>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="tdBox">
+                        <textarea></textarea>
+                      </div>
+                    </td>
+
+                    <td>
+                      <div class="tdBox">
+                        <textarea></textarea>
+                      </div>
+                    </td>
+
+                    <td>
+                      <div class="tdBox">
+                        <textarea></textarea>
+                      </div>
+                    </td>
+
+                    <td>
+                      <div class="tdBox">
+                        <textarea></textarea>
+                      </div>
+                    </td>
+
+                    <td>
+                      <div class="tdBox">
+                        <textarea></textarea>
+                      </div>
+                    </td>
+
+                    <td>
+                      <div class="tdBox">
+                        <textarea></textarea>
+                      </div>
+                    </td>
+
+                    <td>
+                      <div class="tdBox">
+                        <textarea></textarea>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div>
+              <div class="selfcheck">
+                <p>
+                  여러 가지 물체가 어떤 물질로 만들어졌는지 비교할 수
+                  <br />있나요?
+                </p>
+                <div class="checkWrapperBox">
+                  <input class="checkbox" type="checkbox" id="page035_01" />
+                  <label for="page035_01"></label>
+                  <input class="checkbox" type="checkbox" id="page035_02" />
+                  <label for="page035_02"></label>
+                  <input class="checkbox" type="checkbox" id="page035_03" />
+                  <label for="page035_03"></label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- tabContent -->
+        </div>
+        <!--// menu-tabs -->
+        <!--// menu-tabs -->
+
+        <div class="contentpage rightpage">
+          <span class="lesson">2. 물질의 성질</span>
+          <span class="page">31</span>
+        </div>
+        <!-- //page -->
+      </div>
+      <!--[[ container End ]]-->
+    </div>
+    <!--[[ wrap End ]]-->
+  </body>
+</html>
