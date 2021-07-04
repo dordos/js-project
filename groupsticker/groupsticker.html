@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0, width=device-width"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge, chrome=1" />
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/contentWrapper.js"></script>
+    <script src="js/groupsticker.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/common.css" />
+    <link rel="stylesheet" type="text/css" href="css/groupsticker.css" />
+    <title>쉬어가기 활동</title>
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="main_title">
+        <img src="./images/groupsticker/02.png" alt="" />
+      </div>
+      <div class="main_help">
+        <div class="main_help_t">
+          <p>+,- 버튼을 눌러 모둠을 추가 또는 삭제 하세요.</p>
+        </div>
+        <div class="group_plus"></div>
+        <div class="group_minus"></div>
+      </div>
+      <div class="main_container">
+        <div class="group group_1">
+          <p class="gp_1">1</p>
+          <input
+            type="text"
+            name="group"
+            class="g_1"
+            value="모둠1"
+            autocomplete="off"
+          />
+        </div>
+        <div class="group group_2">
+          <p class="gp_2">2</p>
+          <input
+            type="text"
+            name="group"
+            class="g_2"
+            value="모둠2"
+            autocomplete="off"
+          />
+        </div>
+        <div class="group group_3">
+          <p class="gp_3">3</p>
+          <input
+            type="text"
+            name="group"
+            class="g_3"
+            value="모둠3"
+            autocomplete="off"
+          />
+        </div>
+        <div class="group group_4">
+          <p class="gp_4">4</p>
+          <input
+            type="text"
+            name="group"
+            class="g_4"
+            value="모둠4"
+            autocomplete="off"
+          />
+        </div>
+        <div class="group group_5">
+          <p class="gp_5">5</p>
+          <input
+            type="text"
+            name="group"
+            class="g_5"
+            value="모둠5"
+            autocomplete="off"
+          />
+        </div>
+        <div class="group group_6">
+          <p class="gp_6">6</p>
+          <input
+            type="text"
+            name="group"
+            class="g_6"
+            value="모둠6"
+            autocomplete="off"
+          />
+        </div>
+      </div>
+      <div class="main_start"></div>
+    </div>
+
+    <div class="main_stiker">
+      <div class="group2">
+        <div class="group2_bg">
+          <p class="gp_1">1</p>
+          <input
+            type="text"
+            name="group2"
+            class="g_1"
+            disabled
+            autocomplete="off"
+          />
+        </div>
+        <div class="stiker_plus" id="plus1"></div>
+        <div class="stiker_minus" id="minus1"></div>
+        <div class="smile" id="smile1"></div>
+        <div class="smile_count">
+          <p id="smile_value1">0</p>
+        </div>
+      </div>
+      <div class="group2 group_14">
+        <div class="group2_bg">
+          <p class="gp_2">2</p>
+          <input
+            type="text"
+            name="group2"
+            class="g_2"
+            disabled
+            autocomplete="off"
+          />
+        </div>
+        <div class="stiker_plus" id="plus2"></div>
+        <div class="stiker_minus" id="minus2"></div>
+        <div class="smile" id="smile2"></div>
+        <div class="smile_count">
+          <p id="smile_value2">0</p>
+        </div>
+      </div>
+      <div class="group2 group_15">
+        <div class="group2_bg">
+          <p class="gp_3">3</p>
+          <input
+            type="text"
+            name="group2"
+            class="g_3"
+            disabled
+            autocomplete="off"
+          />
+        </div>
+        <div class="stiker_plus" id="plus3"></div>
+        <div class="stiker_minus" id="minus3"></div>
+        <div class="smile" id="smile3"></div>
+        <div class="smile_count">
+          <p id="smile_value3">0</p>
+        </div>
+      </div>
+      <div class="group2 group_16">
+        <div class="group2_bg">
+          <p class="gp_4">4</p>
+          <input
+            type="text"
+            name="group2"
+            class="g_4"
+            disabled
+            autocomplete="off"
+          />
+        </div>
+        <div class="stiker_plus" id="plus4"></div>
+        <div class="stiker_minus" id="minus4"></div>
+        <div class="smile" id="smile4"></div>
+        <div class="smile_count">
+          <p id="smile_value4">0</p>
+        </div>
+      </div>
+      <div class="group2 group_17">
+        <div class="group2_bg">
+          <p class="gp_5">5</p>
+          <input
+            type="text"
+            name="group2"
+            class="g_5"
+            disabled
+            autocomplete="off"
+          />
+        </div>
+        <div class="stiker_plus" id="plus5"></div>
+        <div class="stiker_minus" id="minus5"></div>
+        <div class="smile" id="smile5"></div>
+        <div class="smile_count">
+          <p id="smile_value5">0</p>
+        </div>
+      </div>
+      <div class="group2 group_18">
+        <div class="group2_bg">
+          <p class="gp_6">6</p>
+          <input
+            type="text"
+            name="group2"
+            class="g_6"
+            disabled
+            autocomplete="off"
+          />
+        </div>
+        <div class="stiker_plus" id="plus6"></div>
+        <div class="stiker_minus" id="minus6"></div>
+        <div class="smile" id="smile6"></div>
+        <div class="smile_count">
+          <p id="smile_value6">0</p>
+        </div>
+      </div>
+    </div>
+    <div class="go_main"></div>
+  </body>
+</html>

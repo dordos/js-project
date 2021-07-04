@@ -1,0 +1,303 @@
+@charset "utf-8";
+
+/* 폰트*/
+
+input[type='text'] {
+  text-align: center;
+  font-size: 30px;
+  color: #000;
+  padding: 0 5px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  font-family: 'NotoSans-Bold';
+  box-shadow: none;
+  line-height: 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  user-select: auto;
+  -moz-user-select: auto;
+  -webkit-user-select: auto;
+  -ms-user-select: auto;
+}
+
+body {
+  background: #6a4993;
+}
+
+.main {
+  position: relative;
+  width: 1280px;
+  height: 800px;
+  background: url(../images/groupsticker/01.png);
+  background-size: 100%;
+}
+
+.main_title {
+  position: absolute;
+  width: 300px;
+  text-align: center;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main_title img {
+  width: 100%;
+}
+
+.main_help {
+  position: absolute;
+  width: 460px;
+  top: 24%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-content: space-between;
+}
+
+.main_help_t {
+  width: 380px;
+  height: 44px;
+  background: url(../images/groupsticker/03.png);
+  background-size: 100%;
+}
+
+.main_help_t p {
+  font-size: 15px;
+  height: 44px;
+  line-height: 50px;
+  margin-left: 47px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.group_plus {
+  width: 40px;
+  height: 40px;
+  background: url(../images/groupsticker/04.png);
+  background-size: 100%;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.group_minus {
+  width: 40px;
+  height: 40px;
+  background: url(../images/groupsticker/05.png);
+  background-size: 100%;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.main_container {
+  position: absolute;
+  top: 470px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* display: none; */
+  width: 880px;
+  height: 450px;
+}
+
+.group {
+  width: 400px;
+  height: 52px;
+  float: left;
+  text-align: center;
+  margin: 10px 20px;
+}
+
+.group p {
+  color: #fff;
+  width: 60px;
+  height: 50px;
+  text-align: center;
+  float: left;
+  vertical-align: middle;
+  font-size: 30px;
+  line-height: 49px;
+}
+
+.group input {
+  width: 340px;
+  height: 52px;
+  background: none;
+  border: 0;
+  outline: 0;
+}
+
+.main_start {
+  width: 250px;
+  height: 50px;
+  left: 50%;
+  top: 735px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background: url(../images/groupsticker/12.png) 0 0 no-repeat;
+  background-size: 100%;
+  cursor: pointer;
+}
+
+.group_1,
+.group_7 {
+  background: url(../images/groupsticker/06.png) 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.group_2,
+.group_8 {
+  background: url(../images/groupsticker/07.png) 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.group_3,
+.group_9 {
+  background: url(../images/groupsticker/08.png) 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.group_4,
+.group_10 {
+  background: url(../images/groupsticker/09.png) 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.group_5,
+.group_11 {
+  background: url(../images/groupsticker/10.png) 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.group_6,
+.group_12 {
+  background: url(../images/groupsticker/11.png) 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.main_stiker {
+  display: none;
+  position: relative;
+  width: 1280px;
+  height: 800px;
+  background: url(../images/groupsticker/01.png);
+  background-size: 100%;
+}
+
+.group2 {
+  width: 580px;
+  height: 52px;
+  margin: 22px 20px;
+  float: left;
+  position: relative;
+  top: 100px;
+  left: 24px;
+}
+
+.group2_bg {
+  background: url(../images/groupsticker/06.png) 0 0 no-repeat;
+  background-size: 100%;
+  width: 400px;
+  height: 52px;
+  text-align: center;
+}
+
+.group2 input {
+  width: 340px;
+  height: 52px;
+  background: none;
+  border: 0;
+  outline: 0;
+}
+
+.group2 p {
+  color: #fff;
+  width: 60px;
+  height: 50px;
+  text-align: center;
+  float: left;
+  vertical-align: middle;
+  font-size: 30px;
+  line-height: 49px;
+}
+
+.stiker_plus {
+  width: 40px;
+  height: 34px;
+  background: url(../images/groupsticker/16.png) 0 0 no-repeat;
+  background-size: 100%;
+  position: absolute;
+  left: 405px;
+  top: -10px;
+  cursor: pointer;
+}
+
+.stiker_minus {
+  width: 40px;
+  height: 34px;
+  background: url(../images/groupsticker/17.png) 0 0 no-repeat;
+  background-size: 100%;
+  position: absolute;
+  left: 405px;
+  bottom: -10px;
+  cursor: pointer;
+}
+
+.smile {
+  width: 100px;
+  height: 120px;
+  background-size: 100%;
+  background-image: url(../images/groupsticker/st_smile_no/smile001.png);
+  position: absolute;
+  left: 455px;
+  top: -64px;
+}
+
+.smile_count {
+  width: 50px;
+  height: 50px;
+  background: url(../images/groupsticker/18.png) 0 0 no-repeat;
+  background-size: 100%;
+  position: absolute;
+  left: 520px;
+  top: -20px;
+}
+
+.smile_count p {
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  line-height: 42px;
+}
+
+.go_main {
+  width: 174px;
+  height: 50px;
+  left: 50%;
+  top: 720px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background: url(../images/groupsticker/19.png) 0 0 no-repeat;
+  background-size: 100%;
+  cursor: pointer;
+  display: none;
+}
+
+.group_plus.ON,
+.group_minus.ON {
+  background-position: center -43px;
+}
+
+.main_start.ON {
+  background-position: center -52px;
+}
+
+.stiker_plus.ON,
+.stiker_minus.ON {
+  background-position: center -36px;
+}
+
+.go_main.ON {
+  background-position: center -54px;
+}
