@@ -10,7 +10,6 @@
     <meta name="format-detection" content="telephone=no" />
     <link rel="stylesheet" type="text/css" href="css/common.css" />
     <link rel="stylesheet" type="text/css" href="css/dragAndDrop.css" />
-    <!-- <script src="js/jquery-1.11.0.min.js"></script> -->
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/common.js"></script>
     <script src="js/drag.js"></script>
@@ -123,12 +122,20 @@
           <div class="btn btnReset dragReset">
             <div class="ico"></div>
           </div>
+
+          <div class="btn pupUpBtn">
+            <div class="addBtn simg_btn" data-idx="1"></div>
+            <div class="addBtn simg_btn" data-idx="2"></div>
+            <div class="addBtn simg_btn" data-idx="3"></div>
+            <div class="addBtn simg_btn" data-idx="4"></div>
+            <div class="addBtn simg_btn" data-idx="5"></div>
+          </div>
         </div>
         <div class="midWrap">
           <p class="MyeongjoB">
             우리 주변에는 여러 가지물체가 있으며, 그 물체를 이루는 재료를
-            물질이라고 합니다. 예를 들면 금속으로 만든 클립에서물체는 클립,
-            물질은 금속입니다.
+            <span class="bold popupOpen1">물질</span>이라고 합니다. 예를 들면
+            금속으로 만든 클립에서물체는 클립, 물질은 금속입니다.
           </p>
           <p class="MyeongjoB">
             물질에는 금속, 나무 플라스틱, 고무, 밀가루, 유리, 종이, 섬유, 가죽
@@ -145,112 +152,8 @@
             <div class="selected">
               <p class="tabTitle">
                 길 찾기 놀이판에 있는 여러 가지 물체를 물질에 따라 분류해
-                볼까요?
+                볼까요?<span class="gotothinkBtn"></span>
               </p>
-
-              <table>
-                <tbody>
-                  <tr>
-                    <td>물질</td>
-                    <td>
-                      <div class="tdBox">
-                        <textarea></textarea>
-                      </div>
-                    </td>
-                    <td>
-                      <div class="tdBox">
-                        <textarea></textarea>
-                      </div>
-                    </td>
-
-                    <td>
-                      <div class="tdBox">
-                        <textarea></textarea>
-                      </div>
-                    </td>
-
-                    <td>
-                      <div class="tdBox">
-                        <textarea></textarea>
-                      </div>
-                    </td>
-
-                    <td>
-                      <div class="tdBox">
-                        <textarea></textarea>
-                      </div>
-                    </td>
-
-                    <td>
-                      <div class="tdBox">
-                        <textarea></textarea>
-                      </div>
-                    </td>
-
-                    <td>
-                      <div class="tdBox">
-                        <textarea></textarea>
-                      </div>
-                    </td>
-
-                    <td>
-                      <div class="tdBox">
-                        <textarea></textarea>
-                      </div>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>물체</td>
-                    <td>
-                      <div class="tdBox">
-                        <textarea></textarea>
-                      </div>
-                    </td>
-                    <td>
-                      <div class="tdBox">
-                        <textarea></textarea>
-                      </div>
-                    </td>
-
-                    <td>
-                      <div class="tdBox">
-                        <textarea></textarea>
-                      </div>
-                    </td>
-
-                    <td>
-                      <div class="tdBox">
-                        <textarea></textarea>
-                      </div>
-                    </td>
-
-                    <td>
-                      <div class="tdBox">
-                        <textarea></textarea>
-                      </div>
-                    </td>
-
-                    <td>
-                      <div class="tdBox">
-                        <textarea></textarea>
-                      </div>
-                    </td>
-
-                    <td>
-                      <div class="tdBox">
-                        <textarea></textarea>
-                      </div>
-                    </td>
-
-                    <td>
-                      <div class="tdBox">
-                        <textarea></textarea>
-                      </div>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
             </div>
             <div>
               <div class="selfcheck">
@@ -259,12 +162,12 @@
                   <br />있나요?
                 </p>
                 <div class="checkWrapperBox">
-                  <input class="checkbox" type="checkbox" id="page035_01" />
-                  <label for="page035_01"></label>
-                  <input class="checkbox" type="checkbox" id="page035_02" />
-                  <label for="page035_02"></label>
-                  <input class="checkbox" type="checkbox" id="page035_03" />
-                  <label for="page035_03"></label>
+                  <input class="checkbox" type="checkbox" id="p031_01" />
+                  <label for="p031_01"></label>
+                  <input class="checkbox" type="checkbox" id="p031_02" />
+                  <label for="p031_02"></label>
+                  <input class="checkbox" type="checkbox" id="p031_03" />
+                  <label for="p031_03"></label>
                 </div>
               </div>
             </div>
@@ -272,7 +175,8 @@
           <!-- tabContent -->
         </div>
         <!--// menu-tabs -->
-        <!--// menu-tabs -->
+
+        <div class="studyBtn bigPopOpen"></div>
 
         <div class="contentpage rightpage">
           <span class="lesson">2. 물질의 성질</span>
@@ -283,5 +187,516 @@
       <!--[[ container End ]]-->
     </div>
     <!--[[ wrap End ]]-->
+
+    <div id="popup">
+      <div class="slider">
+        <div class="slider_wrap">
+          <div class="sliderinner">
+            <div class="slider_in">
+              <div>
+                <img src="images/dragAndDrop/slide1.jpg" alt="" />
+                <div class="text">
+                  <span>자물쇠</span>
+                  <span>열쇠</span>
+                  <span>집게</span>
+                  <span>손톱깍기</span>
+                </div>
+              </div>
+              <div>
+                <img src="images/dragAndDrop/slide2.jpg" alt="" />
+                <div class="text">
+                  <span>책꽂이</span>
+                  <span>야구방망이</span>
+                  <span>나무 의자</span>
+                </div>
+              </div>
+              <div>
+                <img src="images/dragAndDrop/slide3.jpg" alt="" />
+                <div class="text">
+                  <span>탁구공</span>
+                  <span>모양 자</span>
+                  <span>블록</span>
+                </div>
+              </div>
+              <div>
+                <img src="images/dragAndDrop/slide4.jpg" alt="" />
+                <div class="text">
+                  <span>고무장갑</span>
+                  <span>고무줄</span>
+                  <span>자동차 타이어</span>
+                </div>
+              </div>
+              <div>
+                <img src="images/dragAndDrop/slide5.jpg" alt="" />
+                <div class="text">
+                  <span>과자</span>
+                  <span>빵</span>
+                  <span>국수</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="page_wrap">
+            <span class="prev handler"></span>
+            <span class="next handler"></span>
+          </div>
+        </div>
+        <span class="popupc_btn"></span>
+      </div>
+    </div>
+
+    <div class="bigPopup cleanUpPro popupOverlay">
+      <div class="popupWrap">
+        <div class="popupClose"></div>
+        <div class="menuTabs">
+          <div class="tabtop">
+            <div class="tabTopImg"></div>
+
+            <span class="tabimg"></span>
+            <p class="tabName">정리 문제</p>
+            <ul class="tabTitle">
+              <li class="selected" data-tab="1"></li>
+              <li data-tab="2"></li>
+              <li data-tab="3"></li>
+            </ul>
+          </div>
+
+          <div class="tabContent">
+            <div class="popupList selected">
+              <!-- data-response-type="퀴즈 유형(singleChoice, multipleChoice, True/False, input, drawLine, dragdrop" -->
+
+              <itemBody>
+                <div class="quizTitle">
+                  <span class="quizNum"></span>
+                  <p>
+                    (<span style="width: 100px; display: inline-block"></span>)
+                    안에 들어갈 알맞은 말을 &lt; 보기 &gt; 에서 고르시오.
+                  </p>
+                </div>
+
+                <div class="quizCont">
+                  <p>
+                    금속으로 만든 클립에서 물체는 클립, (<span
+                      style="width: 100px; display: inline-block"
+                    ></span
+                    >) 은 물질입니다.
+                  </p>
+                </div>
+
+                <input type="text" data-quiz-obj="" id="p031_qp_01" />
+
+                <div class="view">
+                  <p>
+                    <span>금속</span>
+                    <span>나무</span>
+                    <span>고무</span>
+                    <span>플라스틱</span>
+                  </p>
+                </div>
+              </itemBody>
+
+              <div class="confirmBtn"></div>
+              <div class="retryBtn"></div>
+              <div class="wrongCheck"></div>
+              <div class="rightCheck"></div>
+              <div class="firstChallCheck"></div>
+              <div class="secondChallCheck"></div>
+              <div class="nextBtn"></div>
+
+              <div class="answerBox">
+                <div class="answerWrap">
+                  <div class="box">
+                    <div class="answer">
+                      <span>정답</span>
+                    </div>
+
+                    <div class="answerText"></div>
+                  </div>
+
+                  <div class="box">
+                    <div class="explanation">
+                      <span>풀이</span>
+                    </div>
+
+                    <div class="explanationText">
+                      <span
+                        >금속으로 이루어져 있는 클립에서 물체는 클립, 물질은
+                        금속입니다.
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- popupList -->
+
+            <div class="popupList">
+              <itemBody>
+                <div class="quizTitle">
+                  <span class="quizNum"></span>
+                  <p>다음 중 물질이 아닌 것은 어느 것입니까?</p>
+                </div>
+
+                <div class="quizCont">
+                  <div class="checkNum">
+                    <div class="inputBox">
+                      <input
+                        class="radiobox"
+                        name="check"
+                        type="radio"
+                        id="p031_qp_02"
+                      />
+                      <label for="p031_qp_02" data-quiz-obj="" data-value="①"
+                        >1</label
+                      >
+                      <p>나무</p>
+                    </div>
+
+                    <div class="inputBox">
+                      <input
+                        class="radiobox"
+                        name="check"
+                        type="radio"
+                        id="p031_qp_03"
+                      />
+                      <label for="p031_qp_03" data-quiz-obj="" data-value="②"
+                        >2</label
+                      >
+                      <p>금속</p>
+                    </div>
+
+                    <div class="inputBox">
+                      <input
+                        class="radiobox"
+                        name="check"
+                        type="radio"
+                        id="p031_qp_04"
+                      />
+                      <label for="p031_qp_04" data-quiz-obj="" data-value="③"
+                        >3</label
+                      >
+                      <p>밀가루</p>
+                    </div>
+
+                    <div class="inputBox">
+                      <input
+                        class="radiobox"
+                        name="check"
+                        type="radio"
+                        id="p031_qp_05"
+                      />
+                      <label for="p031_qp_05" data-quiz-obj="" data-value="④"
+                        >4</label
+                      >
+                      <p>플라스틱</p>
+                    </div>
+
+                    <div class="inputBox">
+                      <input
+                        class="radiobox"
+                        name="check"
+                        type="radio"
+                        id="p031_qp_06"
+                      />
+                      <label for="p031_qp_06" data-quiz-obj="" data-value="⑤"
+                        >5</label
+                      >
+                      <p>고무장갑</p>
+                    </div>
+                  </div>
+                </div>
+              </itemBody>
+
+              <div class="confirmBtn"></div>
+              <div class="retryBtn"></div>
+              <div class="wrongCheck"></div>
+              <div class="rightCheck"></div>
+              <div class="firstChallCheck"></div>
+              <div class="secondChallCheck"></div>
+              <div class="nextBtn"></div>
+
+              <div class="answerCheck"></div>
+              <div class="answerBox">
+                <div class="answerWrap">
+                  <div class="box">
+                    <div class="answer">
+                      <span>정답</span>
+                    </div>
+
+                    <div class="answerText"></div>
+                  </div>
+
+                  <div class="box">
+                    <div class="explanation">
+                      <span>풀이</span>
+                    </div>
+
+                    <div class="explanationText">
+                      <span
+                        >물질에는 금속, 나무, 플라스틱, 고무, 유리, 종이, 섬유,
+                        가죽 등 여러 가지가 있습니다.</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- popupList -->
+
+            <div class="popupList">
+              <itemBody>
+                <div class="quizTitle">
+                  <span class="quizNum"></span>
+                  <p>나무로 이루어진 물체가 아닌 것은 어느 것입니까?</p>
+                </div>
+
+                <div class="quizCont">
+                  <div class="imgWrap">
+                    <div class="img1">
+                      <img src="images/dragAndDrop/3_p02.png" alt="" />
+                    </div>
+
+                    <div class="img2">
+                      <img src="images/page035/img_2.png" alt="" />
+                    </div>
+
+                    <div class="img3">
+                      <img src="images/page035/img_3.png" alt="" />
+                    </div>
+
+                    <div class="img4">
+                      <img src="images/page035/img_4.png" alt="" />
+                    </div>
+
+                    <div class="img5">
+                      <img src="images/page035/img_5.png" alt="" />
+                    </div>
+                  </div>
+
+                  <div class="checkNum">
+                    <input
+                      class="radiobox"
+                      name="check"
+                      type="radio"
+                      id="p031_qp_07"
+                    />
+                    <label for="p031_qp_07" data-quiz-obj="" data-value="①"
+                      >1</label
+                    >
+                    <input
+                      class="radiobox"
+                      name="check"
+                      type="radio"
+                      id="p031_qp_08"
+                    />
+                    <label for="p031_qp_08" data-quiz-obj="" data-value="②"
+                      >2</label
+                    >
+                    <input
+                      class="radiobox"
+                      name="check"
+                      type="radio"
+                      id="p031_qp_09"
+                    />
+                    <label for="p031_qp_09" data-quiz-obj="" data-value="③"
+                      >3</label
+                    >
+                    <input
+                      class="radiobox"
+                      name="check"
+                      type="radio"
+                      id="p031_qp_10"
+                    />
+                    <label for="p031_qp_10" data-quiz-obj="" data-value="④"
+                      >4</label
+                    >
+                    <input
+                      class="radiobox"
+                      name="check"
+                      type="radio"
+                      id="p031_qp_11"
+                    />
+                    <label for="p031_qp_11" data-quiz-obj="" data-value="⑤"
+                      >5</label
+                    >
+                  </div>
+                </div>
+              </itemBody>
+
+              <div class="confirmBtn"></div>
+              <div class="retryBtn"></div>
+              <div class="wrongCheck"></div>
+              <div class="rightCheck"></div>
+              <div class="firstChallCheck"></div>
+              <div class="secondChallCheck"></div>
+              <!-- <div class="nextBtn"></div> -->
+
+              <div class="answerCheck"></div>
+              <div class="answerBox">
+                <div class="answerWrap">
+                  <div class="box">
+                    <div class="answer">
+                      <span>정답</span>
+                    </div>
+
+                    <div class="answerText"></div>
+                  </div>
+
+                  <div class="box">
+                    <div class="explanation">
+                      <span>풀이</span>
+                    </div>
+
+                    <div class="explanationText">
+                      <span
+                        >우드블록, 쌓기 나무, 책꽂이, 야구 방망이는 나무로 만든
+                        물체입니다.
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- popupList -->
+          </div>
+          <!-- tabContent -->
+        </div>
+        <!--// menu-tabs -->
+      </div>
+      <!--// OBpopupWrap -->
+    </div>
+
+    <div class="popupOverlay thinkPop">
+      <div class="popupWrap">
+        <div class="popupClose"></div>
+        <div class="menuTabs">
+          <div class="tabtop">
+            <div class="tabTopImg"></div>
+            <span class="tabimg"></span>
+            <p class="tabName">실험 관찰</p>
+            <div class="activityBox">
+              <p>
+                길 찾기 놀이판에 있는 여러 가지 물체를 물질에 따라 분류해
+                볼까요?
+              </p>
+            </div>
+          </div>
+
+          <div class="tabContent">
+            <div class="popupList selected">
+              <div class="activityCont act_pop_01">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td rowspan="2">물질</td>
+                      <td>
+                        <div class="tdBox">
+                          <textarea id="p031_subp_01"></textarea>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="tdBox">
+                          <textarea id="p031_subp_02"></textarea>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="tdBox">
+                          <textarea id="p031_subp_03"></textarea>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="tdBox">
+                          <textarea id="p031_subp_04"></textarea>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="tdBox">
+                          <textarea id="p031_subp_05"></textarea>
+                        </div>
+                      </td>
+
+                      <td>
+                        <div class="tdBox">
+                          <textarea id="p031_subp_06"></textarea>
+                        </div>
+                      </td>
+
+                      <td>
+                        <div class="tdBox">
+                          <textarea id="p031_subp_07"></textarea>
+                        </div>
+                      </td>
+
+                      <td>
+                        <div class="tdBox">
+                          <textarea id="p031_subp_08"></textarea>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td rowspan="2">물체</td>
+                      <td>
+                        <div class="tdBox">
+                          <textarea id="p031_subp_09"></textarea>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="tdBox">
+                          <textarea id="p031_subp_10"></textarea>
+                        </div>
+                      </td>
+
+                      <td>
+                        <div class="tdBox">
+                          <textarea id="p031_subp_11"></textarea>
+                        </div>
+                      </td>
+
+                      <td>
+                        <div class="tdBox">
+                          <textarea id="p031_subp_12"></textarea>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="tdBox">
+                          <textarea id="p031_subp_13"></textarea>
+                        </div>
+                      </td>
+
+                      <td>
+                        <div class="tdBox">
+                          <textarea id="p031_subp_14"></textarea>
+                        </div>
+                      </td>
+
+                      <td>
+                        <div class="tdBox">
+                          <textarea id="p031_subp_15"></textarea>
+                        </div>
+                      </td>
+
+                      <td>
+                        <div class="tdBox">
+                          <textarea id="p031_subp_16"></textarea>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <!-- tabContent -->
+        </div>
+        <!--// menu-tabs -->
+      </div>
+      <!--// OBpopupWrap -->
+    </div>
+    <!--// popupOverlay -->
   </body>
 </html>

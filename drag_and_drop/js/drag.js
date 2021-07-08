@@ -9,19 +9,22 @@ window.addEventListener('load', () => {
   effOk.muted = true;
   effFail.muted = true;
 
-  setTimeout(() => {
-    effOk.play();
-    effFail.play();
-  }, 500);
+  // 아이패드 소리 안날때 강제 시작
+  // setTimeout(() => {
+  //   effOk.play();
+  //   effFail.play();
+  // }, 500);
 
   const icon = document.querySelector('.ico');
   const wrap = document.querySelector('.wrap');
+  const answerPopUp = document.querySelector('.pupUpBtn');
 
   const drItems = Array.prototype.map.call(
     document.querySelectorAll('.dr_item'),
     (el) => el
   );
 
+  const items = drItems.map((item) => ({ ...item, item, state: false }));
 
   let targetItem = {
     dom: '',
@@ -64,10 +67,6 @@ window.addEventListener('load', () => {
       getEventPosition(event).x,
       getEventPosition(event).y
     );
-    // const element = document.elementFromPoint(
-    //   getEventPosition(event).x,
-    //   getEventPosition(event.y)
-    // );
 
     function get(__element) {
       const value = __element.getAttribute('data-role-val');
@@ -88,7 +87,6 @@ window.addEventListener('load', () => {
             getEventPosition(event).y
           )
         );
-        // get(document.elementFromPoint(event.clientX, event.clientY));
       } else {
         roleValue = value;
         offPointerElements.forEach((el) => (el.style.pointerEvents = 'auto'));
@@ -111,15 +109,11 @@ window.addEventListener('load', () => {
       icon.style.display = 'none';
       item.style.top = '';
       item.style.left = '';
+      for (item of answerPopUp.children) {
+        item.style.display = 'none';
+      }
     });
   }
-
-  // const getElementFromPoint = (event) => {
-  //   return document.elementFromPoint(
-  //     getEventPosition(event).x,
-  //     getEventPosition(event).y
-  //   );
-  // };
 
   const getEventPosition = (event) => {
     const eventTarget = isTouchEvent(event)
@@ -133,13 +127,11 @@ window.addEventListener('load', () => {
   };
 
   const isTouchEvent = (event) => {
-    // console.log(event);
     return event.type.indexOf('touch') > -1;
   };
 
   //마우스 다운
   const dragStart = function (event) {
-    console.log('dragStart');
     getEventPosition(event);
     targetItem.dom = this;
     targetItem.ItemX = this.offsetLeft;
@@ -147,7 +139,6 @@ window.addEventListener('load', () => {
 
     itemState.startX = getEventPosition(event).x;
     itemState.startY = getEventPosition(event).y;
-    // itemState.startY = event.clientY;
 
     itemState.zoom = getZoomRate(this);
 
@@ -164,17 +155,16 @@ window.addEventListener('load', () => {
 
   //마우스 무브
   const dragMove = function (event) {
-    console.log('dragMove');
-    // console.log(event);
     const eventX = getEventPosition(event).x;
     const eventY = getEventPosition(event).y;
 
-    targetItem.LeftPx = itemState.offsetLeft;
-    targetItem.TopPx = itemState.offsetTop;
+    // 위치값 잡았으나 없어도 돌아감
+    // targetItem.LeftPx = itemState.offsetLeft;
+    // targetItem.TopPx = itemState.offsetTop;
 
-    if (event.offsetLeft) {
-      eventX = targetItem.offsetLeft;
-    }
+    // if (event.offsetLeft) {
+    //   eventX = targetItem.offsetLeft;
+    // }
 
     const moveX = (eventX - itemState.startX) / itemState.zoom;
     const moveY = (eventY - itemState.startY) / itemState.zoom;
@@ -183,16 +173,32 @@ window.addEventListener('load', () => {
     targetItem.dom.style.top = `${targetItem.ItemY + moveY}px`;
   };
 
-  // function soundReset() {}
-
   //마우스 업
   const dragEnd = function (event) {
     const value = getItemPoint(event);
+    const itemList = items.filter((item) => {
+      return item.item.getAttribute('data-mark') == value;
+    });
 
     if (value == targetItem.dom.getAttribute('data-mark')) {
       effOk.pause();
       effOk.currentTime = 0;
       effOk.play();
+
+      items.forEach((target) => {
+        if (targetItem.dom == target.item) {
+          target.state = true;
+        }
+      });
+
+      const listCount = itemList.filter((item) => {
+        return item.state;
+      }).length;
+
+      if (listCount == itemList.length) {
+        answerPopUp.children[value].style.display = 'block';
+      }
+
       icon.style.display = 'block';
     } else {
       effFail.pause();
@@ -206,6 +212,7 @@ window.addEventListener('load', () => {
     wrap.removeEventListener('touchmove', dragMove);
     wrap.removeEventListener('mouseup', dragEnd);
     wrap.removeEventListener('touchend', dragEnd);
+
     dragMoveResume();
   };
 

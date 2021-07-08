@@ -42,7 +42,7 @@
 .wrap .dragwrap {
   position: absolute;
   left: 0px;
-  top: 434px;
+  top: 489px;
   width: 680px;
   height: 205px;
   z-index: 0;
@@ -165,7 +165,7 @@
   position: absolute;
   top: 190px;
   width: 128px;
-  height: 235px;
+  height: 285px;
   z-index: 2;
 }
 
@@ -195,7 +195,7 @@
   border-radius: 50px;
   top: 125px;
   width: 128px;
-  height: 300px;
+  height: 356px;
   z-index: 1;
 }
 
@@ -225,7 +225,7 @@
 }
 
 .midWrap {
-  top: 457px;
+  top: 527px;
   left: 75px;
 }
 
@@ -275,7 +275,6 @@
   background-size: 100%;
   cursor: pointer;
 }
-
 
 .tabContent table tbody tr:first-child td:nth-child(1) {
   background-color: #efede7;
@@ -378,7 +377,386 @@
   left: 0px;
   top: 0px;
   width: 680px;
-  height: 425px;
+  height: 475px;
   z-index: 0;
   visibility: visible !important;
+}
+
+/* 슬라이드 버튼 */
+.btn .addBtn {
+  top: 152px;
+  display: none;
+}
+.btn .addBtn:nth-child(1) {
+  left: 87px;
+}
+.btn .addBtn:nth-child(2) {
+  left: 224px;
+}
+.btn .addBtn:nth-child(3) {
+  left: 375px;
+}
+.btn .addBtn:nth-child(4) {
+  left: 495px;
+}
+.btn .addBtn:nth-child(5) {
+  left: 640px;
+}
+
+/* 슬라이드 하이트 수정 */
+#popup > div {
+  height: 378px;
+}
+#popup .slider_wrap,
+#popup .sliderinner,
+#popup .slider_in,
+#popup .slider_in > div {
+  height: 350px;
+  border-radius: 15px;
+}
+
+/* 슬라이드 관련 */
+#popup .slider_wrap {
+  background-color: transparent;
+}
+#popup .slider_in > div img {
+  width: 100%;
+}
+.slider_in div .text span {
+  position: absolute;
+}
+.slider_in div:nth-child(1) .text span:nth-child(1) {
+  top: 179px;
+  left: 139px;
+}
+.slider_in div:nth-child(1) .text span:nth-child(2) {
+  top: 309px;
+  left: 166px;
+}
+.slider_in div:nth-child(1) .text span:nth-child(3) {
+  top: 139px;
+  left: 359px;
+}
+.slider_in div:nth-child(1) .text span:nth-child(4) {
+  top: 290px;
+  left: 329px;
+}
+
+.slider_in div:nth-child(2) .text span:nth-child(1) {
+  top: 171px;
+  left: 109px;
+}
+.slider_in div:nth-child(2) .text span:nth-child(2) {
+  top: 292px;
+  left: 131px;
+}
+.slider_in div:nth-child(2) .text span:nth-child(3) {
+  top: 289px;
+  left: 397px;
+}
+
+.slider_in div:nth-child(3) .text span:nth-child(1) {
+  top: 198px;
+  left: 122px;
+}
+.slider_in div:nth-child(3) .text span:nth-child(2) {
+  top: 197px;
+  left: 429px;
+}
+.slider_in div:nth-child(3) .text span:nth-child(3) {
+  top: 313px;
+  left: 217px;
+}
+
+.slider_in div:nth-child(4) .text span:nth-child(1) {
+  top: 264px;
+  left: 255px;
+}
+.slider_in div:nth-child(4) .text span:nth-child(2) {
+  top: 297px;
+  left: 108px;
+}
+.slider_in div:nth-child(4) .text span:nth-child(3) {
+  top: 313px;
+  left: 393px;
+}
+
+.slider_in div:nth-child(5) .text span:nth-child(1) {
+  top: 153px;
+  left: 307px;
+}
+.slider_in div:nth-child(5) .text span:nth-child(2) {
+  top: 280px;
+  left: 198px;
+}
+.slider_in div:nth-child(5) .text span:nth-child(3) {
+  top: 309px;
+  left: 420px;
+}
+.slider_in > div {
+  position: relative;
+}
+.slider_in > div::after {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: auto;
+  height: 24px;
+  padding: 5px 10px;
+  position: absolute;
+  border-radius: 10px;
+  top: 20px;
+  left: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+.slider_in > div:nth-child(1)::after {
+  content: '금속';
+}
+.slider_in > div:nth-child(2)::after {
+  content: '나무';
+}
+.slider_in > div:nth-child(3)::after {
+  content: '플라스틱';
+}
+.slider_in > div:nth-child(4)::after {
+  content: '고무';
+}
+.slider_in > div:nth-child(5)::after {
+  content: '밀가루';
+}
+
+/* 생각쑥쑥 */
+.popupOverlay .popupWrap .tabTopImg::after {
+  left: 190px;
+}
+
+.popupOverlay.subPop .popupWrap .tabTopImg::after {
+  left: 190px;
+}
+.popupOverlay.originality .popupWrap .tabtop .activityBox p {
+  width: 90%;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  font-family: 'NanumSquareRoundEB';
+  font-size: 23px;
+}
+.popupOverlay.originality .popupWrap .tabContent {
+  top: 150px;
+}
+.act_pop_01 table tr:nth-child(2) td:nth-child(1) {
+  background: none;
+}
+.act_pop_01 table tr:nth-child(4) td:nth-child(1) {
+  background: none;
+}
+.act_pop_01 table tr:nth-child(1) td:nth-child(1) {
+  width: 120px;
+}
+.act_pop_01 table tr:nth-child(3) td:nth-child(1) {
+  width: 120px;
+}
+.act_pop_01 table tr:nth-child(1) td {
+  height: 100px;
+}
+.act_pop_01 table tr:nth-child(2) td {
+  height: 100px;
+}
+.act_pop_01 table tr:nth-child(3) td {
+  height: 150px;
+}
+.act_pop_01 table tr:nth-child(4) td {
+  height: 150px;
+}
+
+.studyBtn {
+  bottom: 30px;
+  right: 170px;
+}
+
+/* 정리문제 */
+.popupList:nth-child(1) .view {
+  width: 400px;
+  height: 70px;
+  position: absolute;
+  top: 180px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid #d2c8ba;
+}
+.popupList:nth-child(1) .view p {
+  width: 100%;
+  text-align: center;
+  word-spacing: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.popupList:nth-child(1) .view p::after {
+  content: '< 보기 >';
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 20px;
+  background-color: #fff;
+  word-spacing: 0px;
+}
+.popupList:nth-child(1) .view span {
+  font-size: 20px;
+}
+.popupList:nth-child(1) input {
+  top: 290px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.popupList:nth-child(2) .checkNum input[type='radio'] + label {
+  width: 30px;
+  height: 30px;
+  background-color: #b7b7b7;
+  display: inline-block;
+  position: relative;
+  margin-left: 2px;
+  border-radius: 100%;
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+  font-family: 'NanumSquareB';
+  line-height: 30px;
+  float: left;
+}
+.popupList:nth-child(2) .checkNum input[type='radio']:checked + label {
+  width: 30px;
+  height: 30px;
+  background-color: #65cbff;
+  float: left;
+}
+.popupList:nth-child(2) .checkNum .inputBox {
+  float: left;
+  margin-right: 19px;
+  width: 30%;
+  margin-bottom: 20px;
+}
+.popupList:nth-child(2) .checkNum .inputBox p {
+  margin-left: 5px;
+  display: inline-block;
+  line-height: 27px;
+}
+.popupList:nth-child(2) .answerCheck {
+  top: 126px;
+  left: 462px;
+}
+
+.popupList:nth-child(3) .imgWrap {
+  position: absolute;
+  top: -30px;
+}
+.popupList:nth-child(3) .imgWrap div {
+  float: left;
+  padding: 0px 40px;
+  height: 160px;
+  position: relative;
+  width: 115px;
+}
+.popupList:nth-child(3) .imgWrap div::after {
+  color: #000;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 17px;
+}
+.popupList:nth-child(3) .imgWrap div:nth-child(1):after {
+  content: '▲ 탁구공';
+}
+.popupList:nth-child(3) .imgWrap div:nth-child(2):after {
+  content: '▲ 우드블록';
+}
+.popupList:nth-child(3) .imgWrap div:nth-child(3):after {
+  content: '▲ 쌓기나무';
+}
+.popupList:nth-child(3) .imgWrap div:nth-child(4):after {
+  content: '▲ 책꽂이';
+}
+.popupList:nth-child(3) .imgWrap div:nth-child(5):after {
+  content: '▲ 야구 방망이';
+}
+.popupList:nth-child(3) .imgWrap div img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.popupList:nth-child(3) .imgWrap div:nth-child(1) img {
+  width: 73px;
+}
+.popupList:nth-child(3) .imgWrap div:nth-child(2) img {
+  width: 101px;
+}
+.popupList:nth-child(3) .imgWrap div:nth-child(3) img {
+  width: 81px;
+}
+.popupList:nth-child(3) .imgWrap div:nth-child(4) img {
+  width: 111px;
+}
+.popupList:nth-child(3) .imgWrap div:nth-child(5) img {
+  width: 86px;
+}
+.popupList:nth-child(3) .checkNum input[type='radio'] + label {
+  width: 30px;
+  height: 30px;
+  background-color: #b7b7b7;
+  display: inline-block;
+  position: relative;
+  margin-left: 2px;
+  border-radius: 100%;
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+  font-family: 'NanumSquareB';
+  line-height: 30px;
+}
+.popupList:nth-child(3) .checkNum input[type='radio']:checked + label {
+  width: 30px;
+  height: 30px;
+  background-color: #65cbff;
+}
+.popupList:nth-child(3) .checkNum input[type='radio'] + label:nth-child(2) {
+  top: -20px;
+  left: 10px;
+}
+.popupList:nth-child(3) .checkNum input[type='radio'] + label:nth-child(4) {
+  top: -20px;
+  left: 150px;
+}
+.popupList:nth-child(3) .checkNum input[type='radio'] + label:nth-child(6) {
+  top: -20px;
+  left: 330px;
+}
+.popupList:nth-child(3) .checkNum input[type='radio'] + label:nth-child(8) {
+  top: 170px;
+  left: -100px;
+}
+.popupList:nth-child(3) .checkNum input[type='radio'] + label:nth-child(10) {
+  top: 170px;
+  left: 50px;
+}
+[data-response-type='singleChoice'] .answerCheck {
+  top: 88px;
+  left: 79px;
+}
+
+/* 용어 사전 */
+.miniPopup {
+  top: 0px;
+  left: 0px;
+}
+.miniPopup .popupWrap {
+  height: 450px;
+}
+.miniPopup .wordImg {
+  width: 301px;
+  height: 218px;
+  top: 99px;
 }
