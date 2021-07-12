@@ -9,11 +9,16 @@ window.addEventListener('load', () => {
   effOk.muted = true;
   effFail.muted = true;
 
-  // 아이패드 소리 안날때 강제 시작
-  // setTimeout(() => {
-  //   effOk.play();
-  //   effFail.play();
-  // }, 500);
+  setTimeout(() => {
+    effOk.play();
+    effFail.play();
+
+    // pc에서 드래그 end 시점에 사운드가 겹치는 현상이 있음
+    setTimeout(() => {
+      effOk.pause();
+      effFail.pause();
+    }, 200);
+  }, 500);
 
   const icon = document.querySelector('.ico');
   const wrap = document.querySelector('.wrap');
