@@ -7,7 +7,6 @@ window.addEventListener('load', function () {
   const resetBtn = document.querySelector('.resetBtn');
   const answerBtn = document.querySelector('.answerBtn');
 
-
   const effOk = new Audio('./media/drag/eff_ok.mp3');
   const effFail = new Audio('./media/drag/eff_fail.mp3');
 
@@ -148,7 +147,7 @@ window.addEventListener('load', function () {
       effOk.play();
       element.querySelector('img').style.display = 'block';
       resetBtn.style.display = 'block';
-      answerBtn.style.display = 'none'
+      answerBtn.style.display = 'none';
     } else {
       effFail.pause();
       effFail.currentTime = 0;
@@ -182,7 +181,7 @@ window.addEventListener('load', function () {
       effOk.play();
       element.value = itemTxt.dom.querySelector('span').innerText;
       resetBtn.style.display = 'block';
-      answerBtn.style.display = "none"
+      answerBtn.style.display = 'none';
     } else {
       effFail.pause();
       effFail.currentTime = 0;
