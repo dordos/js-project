@@ -29,7 +29,9 @@ window.addEventListener('load', () => {
     (el) => el
   );
 
-  const items = drItems.map((item) => ({ ...item, item, state: false }));
+  const items = drItems.map((item) => {
+    return { item, state: false };
+  });
 
   let targetItem = {
     dom: '',
