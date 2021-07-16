@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/* 레이아웃 */
+#wrap {background: url(../images/page028/page028_bg.jpg)no-repeat center/contain;}
+
+.contWrap > div {position: relative;}
+
+.contWrap > div:nth-of-type(1) p {position: absolute;}
+.contWrap > div:nth-of-type(1) .think {top: 66px; left: 78px; font-family: "NanumSquareEB"; color: #fff;}
+.contWrap > div:nth-of-type(1) .think span {font-family: "NanumSquareEB"; color: #fff100;}
+
+.contWrap > div:nth-of-type(1) .tit {top: 115px; left: 60px; font-family: "NanumSquareRoundEB"; font-size: 40px;}
+.contWrap > div:nth-of-type(1) .tit span {font-family: "NanumSquareRoundEB"; font-size: 45px;}
+.contWrap > div:nth-of-type(1) .tit .yellow { text-shadow: -2px -2px 0 #532b2b, 2px -2px 0 #532b2b, -2px 2px 0 #532b2b, 2px 2px 0 #532b2b;  color: #fff100;}
+.contWrap > div:nth-of-type(1) .tit .red {color: #d0111b;}
+
+.contWrap > div:nth-of-type(1) p:nth-of-type(3) {width: 559px;line-height: 27px;top: 190px;left: 65px;text-indent: 18px;font-family: "NanumSquareB";font-size: 18px;text-align: justify;}
+
+.blackBg {width: 677px;top: 338px;position: absolute !important;left: 17px;}
+.blackBg img {width:100%}
+
+.selectImg {width: 677px;top: 338px;position: absolute !important;left: 17px;display: none; }
+
+/* .selectImg {width: 677px;top: 300px;position: absolute;display: none;} */
+.selectImg.sImg1 {top: 338px;left: 40px;width: 300px;}
+.selectImg.sImg2 {top: 330px;left: 370px; width: 300px; }
+.selectImg.sImg3 {top: 593px;left: 40px;width: 300px;}
+.selectImg.sImg4 {top: 593px;left: 370px;width: 300px;}
+.selectImg img {width:100%;}
+
+
+.bubble {width: 100%;}
+.anitalkBtn {top: 345px;left: 54px;}
+.sound .soundWrap {position: absolute;}
+.sound .soundWrap:nth-child(1) {top: 393px;left: 142px;width: 88px;height: 66px;}
+.sound .soundWrap:nth-child(2) {top: 415px;left: 565px;width: 88px;height: 46px;}
+.sound .soundWrap:nth-child(3) {top: 799px;left: 250px;width: 113px;height: 66px;}
+.sound .soundWrap:nth-child(2) .bubble,
+.sound .soundWrap:nth-child(3).bubble  {top: 50%; transform: translateY(-50%);}
+
+.learningBtn {top: 295px;right: 100px;}
+
+
+.convideoBox {position: absolute; top: 0; left: 40px; display: none; }
+.videoClose {background:url(../images/video/videoclose.png) no-repeat center/contain;width: 34px;height: 34px;position: absolute;top: 0px;right: 0px;cursor: pointer;z-index: 2;}
