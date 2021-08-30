@@ -1,0 +1,81 @@
+@charset "utf-8";
+#wrap{background: url(../images/page041/41p_bg.png) no-repeat center/contain;}
+#container .textbox {width: 425px; position: absolute; top: 80px; left: 150px;}
+
+.imgWrap div img{width: 100%;position: absolute;}
+.imgWrap div p{position: absolute;}
+.imgBox_01{position: absolute;width: 219px;height: 207px;top: 520px;left: 100px;}
+.imgBox_02{position: absolute;width: 275px;height: 274px;top: 400px;left: 380px;}
+.imgBox_03{position: absolute;width: 206px;height: 207px;top: 730px;left: 280px;}
+.imgBox_04{position: absolute;width: 252px;height: 210px;top: 740px;left: 80px;}
+.imgBox_05{position: absolute;width: 269px;height: 223px;top: 730px;left: 410px;}
+.imgBox_01 p{top: 170px;left: 100px;color: #fff;}
+.imgBox_02 p{top: 240px;left: 120px;color: #fff;}
+.imgBox_03 p{top: 180px;left: 90px;text-shadow: 1px 0px 0 #fff, -1px 0px 0 #fff, 0px 1px 0 #fff, 0px -1px 0 #fff;}
+
+.scratchBox .scratch {position: absolute;width: 100%;height: 100%;border-radius: 40px;top: 0;left: 0;}
+.scratch canvas { cursor: url(../images/common/scratch1.png) 10 30, auto;}
+
+.textBox p{position: absolute;font-size: 22px;color: #fff;font-family: 'NanumSquareEB';top: 400px;left: 132px;text-shadow: -1px -1px 0 #a5d9cd, 1px -1px 0 #a5d9cd, -1px 1px 0 #a5d9cd, 1px 1px 0 #a5d9cd;}
+
+.differenceBtn  {top: 460px;left: 23px;width: 150px;height: auto;position: absolute;cursor: pointer;margin-left: 10px;display: inline-block;}
+.differenceBtn img{width: 100%;}
+
+.videoBtn {top: 400px;left: 210px;}
+.videoBg .videoWrap .tabTopImg::after {left: 347px;}
+/* 생각쑥쑥 */
+.normal{top: 200px;}
+.normal .tabContent{background: none;}
+.thinkPop .popupWrap .tabTopImg::after {left: 160px;}
+.popupOverlay .popupWrap .tabtop .tabName {left: 110px;}
+.popupOverlay.thinkPop .popupWrap .tabContent {top: 205px;}
+.popupOverlay.thinkPop .popupWrap .tabContent .act_pop_01 {text-align: center;}
+.popupOverlay.thinkPop .popupWrap .tabContent .act_pop_01 textarea {width: 640px; height: 134px; box-sizing: border-box; border: 2px solid #d2c8ba; border-radius: 3px;}
+
+/* 정리문제 */
+.popupList:nth-child(1) .inner {display: flex; justify-content: space-between; align-items: center;}
+.popupList:nth-child(1) .inner > div {width: 120px;height: 120px;position: relative;}
+.popupList:nth-child(1) .inner > div > span {position: absolute;top: 50%;left: -30px;transform: translateY(-50%);}
+.popupList:nth-child(1) .inner .img p {width: 100%; height: 100%; position: relative; overflow: unset !important;}
+.popupList:nth-child(1) .inner .img p span {position: absolute;bottom: -20px;left: 50%;transform: translateX(-50%);}
+.popupList:nth-child(1) .inner img {height: 100%;}
+.popupList:nth-child(1) .inner .img::after {color: #000;position: absolute;bottom: -20px;left: 45%;transform: translateX(-50%);font-size: 16px;}
+.popupList:nth-child(1) .inner:nth-child(1) .img:after {content: "▲ 도롱뇽"; width: 70px;}
+.popupList:nth-child(1) .inner:nth-child(2) .img:after {content: "▲ 전복";}
+.popupList:nth-child(1) .inner:nth-child(3) .img:after {content: "▲ 조개";}
+.popupList:nth-child(1) .inner .text {height: 80px; border: 1px solid #000;}
+.popupList:nth-child(1) .inner .text p {width: 100%;line-height: 80px;text-align: center;}
+.popupList:nth-child(1) .inner:nth-of-type(2) {margin: 20px 0;}
+.popupList:nth-child(1) #dragButton1 {top: 0;left: 0;}
+.popupList:nth-child(1) #dragButton2 {top: 145px;left: 0;}
+.popupList:nth-child(1) #dragButton3 {bottom: 0;left: 0;}
+.popupList:nth-child(1) #dragTarget1 {top: 0;right: 0;}
+.popupList:nth-child(1) #dragTarget2 {top: 145px;right: 0;}
+.popupList:nth-child(1) #dragTarget3 {bottom: 0;right: 0;}
+.popupList:nth-child(1) .dragLineBox {height: 300px;width: 280px;top: 50px;left: 140px;position: absolute !important;}
+
+.popupList:nth-child(2) .textbox {border: 1px solid #d2c8ba;}
+.popupList:nth-child(2) .textbox p {width: 500px; margin: 0 auto; padding: 5px 10px; position: relative; overflow: none;}
+.popupList:nth-child(2) .textbox p::before {content: '';width: 5px;height: 5px;position: absolute;top: 50%;left: 5px;transform: translate(-50%,-50%);background: #000;border-radius: 100%;}
+.popupList:nth-child(2) .imgWrap {position: absolute;top: 150px;}
+.popupList:nth-child(2) .imgWrap div {float: left;height: 169px;margin-left: 15px;position: relative;width: 130px;}
+.popupList:nth-child(2) .imgWrap div img {position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);width: 130px;}
+.popupList:nth-child(2) .imgWrap .img4 img {top: 45%;}
+.popupList:nth-child(2) .imgWrap div::after {color: #000;position: absolute;bottom: -20px;left: 50%;transform: translateX(-50%);font-size: 18px;}
+.popupList:nth-child(2) .imgWrap div:nth-child(1):after {content: "▲ 게";}
+.popupList:nth-child(2) .imgWrap div:nth-child(2):after {content: "▲ 수달";}
+.popupList:nth-child(2) .imgWrap div:nth-child(3):after {content: "▲ 상어";}
+.popupList:nth-child(2) .imgWrap div:nth-child(4):after {content: "▲ 물자라";width: 70px;}
+.popupList:nth-child(2) .checkNum input[type="radio"] + label{position: absolute}
+.popupList:nth-child(2) .checkNum input[type="radio"] + label:nth-child(2) {top: 155px;left: -10px;}
+.popupList:nth-child(2) .checkNum input[type="radio"] + label:nth-child(4) {top: 155px;left: 138px;}
+.popupList:nth-child(2) .checkNum input[type="radio"] + label:nth-child(6) {top: 155px;left: 280px;}
+.popupList:nth-child(2) .checkNum input[type="radio"] + label:nth-child(8) {top: 155px;left: 428px;}
+.popupList:nth-child(2) .checkNum input[type="radio"] + label:nth-child(10) {top: 170px;left: 50px;}
+
+.popupList:nth-child(3) .quizCont img {width: 250px;position: absolute;top: 40px;left: -35px;}
+.popupList:nth-child(3) .quizCont table {width: 400px;position: absolute;right: -30px;}
+.popupList:nth-child(3) .quizCont table td:nth-of-type(2) {background: none; text-align: left;}
+.popupList:nth-child(3) .quizCont table td p {padding: 3px 0 3px 10px; position: relative;}
+.popupList:nth-child(3) .quizCont table td p::before {content: "";width: 5px;height: 5px;position: absolute;top: 13px;left: 0;border-radius: 100%;background: #000;}
+#p041_qp_05 {width: 150px; top: 400px;left: 50%;transform: translateX(-50%);}

@@ -5,6 +5,7 @@ $(function () {
 
   //오디오 상태
   let stopAudio = false;
+  let testAnimation;
 
   //캔버스
   const canvas = Array.from(document.querySelectorAll('.imgCanvas')).map(
@@ -107,7 +108,6 @@ $(function () {
       });
     }
   };
-  let testAnimation;
 
   function diffusion(canvas, playCount) {
     if (flag) {
@@ -119,9 +119,9 @@ $(function () {
       function draw() {
         //오디오 끝났을때
         // if (!stopAudio) {
-        //   // diffusion(canvas, playCount);
-        //   // resetCanvas();
-        //   return;
+        // diffusion(canvas, playCount);
+        // resetCanvas();
+        // return;
         // }
         width += speed;
         let x = canvas.offsetWidth / 2;
