@@ -1,11 +1,9 @@
 $(function () {
   const talkBtn = document.querySelector('.anitalkBtn');
-  const wrap = document.querySelector('#wrap');
   const targetAudio = Array.from(document.querySelectorAll('audio'));
 
   //오디오 상태
   let stopAudio = false;
-  let testAnimation;
 
   //캔버스
   const canvas = Array.from(document.querySelectorAll('.imgCanvas')).map(
@@ -58,19 +56,21 @@ $(function () {
     context[3].globalCompositeOperation = 'source-over';
     context[3].drawImage(backgroundImg4, 0, 0, 296, 260);
   }
+
+  let playCount = 0; // 영상 갯수
   function init() {
-    let playCount = 0; // 영상 갯수
+    playCount = 0;
     targetAudio.forEach((item) => {
       item.pause();
       item.currentTime = 0;
     });
-    animationStart(playCount);
 
     flag = true;
     stopAudio = true;
     cancelAnimationFrame(testAnimation);
     resetCanvas();
     diffusion(canvas[playCount], playCount);
+    animationStart(playCount);
   }
 
   const animationStart = (playCount) => {
@@ -78,8 +78,12 @@ $(function () {
       talkBtn.classList.remove('sMotion');
       return;
     }
+
     targetAudio[playCount].play();
-    targetAudio[playCount].addEventListener('ended', () => {
+  };
+
+  for (var i = 0; i < targetAudio.length; i++) {
+    targetAudio[i].addEventListener('ended', () => {
       ++playCount;
       if (targetAudio.length >= playCount) {
         flag = true;
@@ -90,10 +94,13 @@ $(function () {
       }
       stopAudio = false;
     });
-    targetAudio[playCount].addEventListener('playing', (e) => {
-      wrap.addEventListener('click', animationStop);
+    targetAudio[i].addEventListener('playing', (e) => {
+      $(
+        '.videoBtn, .exviewBtn, .cleanupBtn, .learningBtn, .utilizeBtn, .gotosubBtn, .gotothinkBtn, .popupOpen1, .popupOpen2, .studyBtn, .addBtn, .clickBtn, .supreiBtn, .goTolabBtn,.drawBtn, .arrowLeft, .arrowRight'
+      ).on('click', animationStop);
+      // wrap.addEventListener('click', animationStop);
     });
-  };
+  }
 
   const animationStop = (e) => {
     if (!e.target.classList.contains('anitalkBtn')) {
@@ -108,6 +115,7 @@ $(function () {
       });
     }
   };
+  let testAnimation;
 
   function diffusion(canvas, playCount) {
     if (flag) {
@@ -116,12 +124,13 @@ $(function () {
 
       context[playCount].globalCompositeOperation = 'destination-out';
       window.requestAnimationFrame(draw);
+
       function draw() {
         //오디오 끝났을때
         // if (!stopAudio) {
-        // diffusion(canvas, playCount);
-        // resetCanvas();
-        // return;
+        //   // diffusion(canvas, playCount);
+        //   // resetCanvas();
+        //   return;
         // }
         width += speed;
         let x = canvas.offsetWidth / 2;
