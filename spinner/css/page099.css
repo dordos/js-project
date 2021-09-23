@@ -1,0 +1,20 @@
+@charset "utf-8";
+.top_p span:nth-of-type(1)::before {background-image: url(../images/common/top_icon9.png);}
+
+#wrap {background: url(../images/page099/99p_.png)no-repeat center/contain;}
+.top_plong span {left: 23px;}
+
+.blackBg {width: 680px;top: 30px;position: absolute !important;left: 40px;}
+.blackBg img {width:100%}
+
+.bubble {width: 100%;}
+.anitalkBtn {top: 10px;left: 325px;}
+.sound .soundWrap {position: absolute;}
+.sound .soundWrap:nth-child(1) {width: 170px;top: 57px;left: 70px;}
+.sound .soundWrap:nth-child(2) {width: 217px;top: 67px;left: 347px;}
+.sound .soundWrap:nth-child(3) {width: 195px;top: 353px;left: 143px;}
+.sound .soundWrap:nth-child(4) {width: 123px;top: 369px;left: 390px;}
+.sound .soundWrap:nth-child(5) {width: 153px;top: 383px;left: 558px;}
+.sound .soundWrap:nth-child(6) {width: 185px;top: 706px;left: 102px;}
+.sound .soundWrap:nth-child(7) {width: 80px;top: 654px;left: 411px;}
+.sound .soundWrap:nth-child(8) {width: 160px;top: 875px;left: 526px;}

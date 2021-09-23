@@ -1,0 +1,286 @@
+@charset "utf-8";
+
+.sliderWrap{
+	position: absolute;
+	width: 1160px;
+	height: 555px;
+	left: 200px;
+	top: 260px;
+}
+
+.sliderWrap .slideView{
+    width: 1160px;
+    height: 555px;
+}
+.sliderWrap .sliceInner {
+	width: 4640px;
+	height: 555px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.sliderWrap .sliceInner .itemList {
+	width: 1160px;
+	height: 555px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	background: #f6e4bb;
+}
+
+
+
+ .help_p {
+	font-size: 30px;
+	display: none;
+}
+ .help_p .textred {
+	font-size: 30px;
+	color: red;
+}
+.strawBg {
+	width: 340px;
+	height: 393px;
+	line-height: 393px;
+	position: relative;
+	top: 90px;
+	left: 160px;
+	background: url("../images/page091/lab/89p_1_lab1.png") no-repeat center/contain;
+	text-align: center;
+}
+
+.strawBg img {
+	width: 280px;
+	vertical-align: middle;
+}
+
+.hands {
+	width: 670px;
+	height: 530px;
+	background: url(../images/page091/lab/89p_1_lab3.png) no-repeat center/contain;
+	position: relative;
+	bottom: 158px;
+	left: 710px;
+}
+
+p.answer:not(.result1):not(.result2){
+	border: 3px dashed red;
+	width: 35px;
+	height: 35px;
+	position: relative;
+	top: 30px;
+	left: 10px;
+	background-size: 35px;
+	/* animation-name: drop;
+	animation-duration: 2s;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards; */
+}
+
+
+
+p.answer.result1{
+	background: url("../images/page091/lab/89p_1_lab5.png") no-repeat center /contain;
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	top: 30px;
+	left: 10px;
+	background-size: 35px;
+}
+
+p.answer.result2{
+	background: url(../images/page091/lab/89p_1_lab6.png) no-repeat center /contain;
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	top: 30px;
+	left: 10px;
+	background-size: 35px;
+}
+
+@keyframes drop {
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+
+	100%,
+	50% {
+		opacity: 1;
+	}
+}
+
+
+.dragItem {
+	width: 310px;
+	height: 90px;
+	background: url(../images/page091/lab/89p_1_lab4.png) no-repeat center/contain;
+	position: relative;
+	top: -830px;
+	left: 710px;
+}
+
+.dragItem > p {
+	width: 70px;
+	height: 70px;
+	float: left;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+.nPole {
+	background: url("../images/page091/lab/89p_1_lab5.png") no-repeat center /contain;
+	margin-left: 70px;
+}
+
+.sPole {
+	background: url("../images/page091/lab/89p_1_lab6.png") no-repeat center /contain;
+	margin-left: 40px;
+}
+
+.hands.movingHands {
+	animation: movingHands 2s ease-in-out 0.5s forwards;
+}
+
+@keyframes movingHands {
+	100% {
+		left: 570px;
+	}
+}
+
+.strawBg.movingFW {
+	animation: movingFW 2s ease-in-out 3.0s forwards;
+}
+
+@keyframes movingFW {
+	100% {
+		left: 230px;
+	}
+}
+
+.strawBg.movingBK {
+	animation: movingBK 2s ease-in-out 3.0s forwards;
+}
+
+@keyframes movingBK {
+	100% {
+		left: 70px;
+	}
+}
+
+.help_start {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	display: none;
+	z-index: 10;
+}
+
+.help_box {
+	width: 320px;
+	height: 95px;
+	border: 4px dashed #fff;
+	border-radius: 10px;
+	position: absolute;
+	top: 347px;
+	left: 903px;
+	/* animation-name: blink2;
+	animation-duration: 2s;
+	animation-delay: 5s;
+	animation-iteration-count: 3;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+	z-index: 11; */
+}
+
+.help_box2 {
+	width: 35px;
+	height: 35px;
+	border: 3px dashed yellowgreen;
+	position: absolute;
+	left: 919px;
+	top: 526px;
+	/* animation-name: blink3;
+	animation-duration: 2s;
+	animation-delay: 10s;
+	animation-iteration-count: 3;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards; */
+	z-index: 11;
+}
+
+@keyframes blink2 {
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+
+	100%,
+	50% {
+		opacity: 1;
+	}
+}
+
+@keyframes blink3 {
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+
+	100%,
+	50% {
+		opacity: 1;
+	}
+}
+
+.help_start_text {
+	position: absolute;
+	top: 315px;
+	left: 860px;
+	width: 400px;
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+	z-index: 11;
+	font-family: "NanumSquareRoundEB";
+}
+
+.help_start_text2 {
+	position: absolute;
+	top: 480px;
+	left: 720px;
+	width: 400px;
+	color: yellowgreen;
+	font-size: 24px;
+	text-align: center;
+	z-index: 11;
+	font-family: "NanumSquareRoundEB";
+}
+
+.start {
+	top: 120px;
+	right: 20px;
+	z-index: 12;	
+}
+
+.start.on {
+	animation-name: blink4;
+    animation-duration: 1s;
+    animation-delay: 15s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+
+

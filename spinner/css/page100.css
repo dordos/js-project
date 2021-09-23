@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+#wrap {background: url(../images/page100/100p_bg1.jpg)no-repeat center/contain;}
+
+/* 정리하기 */
+.gotosubBtn  {top: 40px; left: 280px;}
+.cleanUp .tabContent  input[type=text], .cleanUp .tabContent  textarea {font-size: 18px;padding: 5px;}
+
+/* 1 */
+.cleanUp .tabContent .num {width: 18px;height: 18px;color: #fff;border-radius: 100%;display: inline-block;background-color: #171c61;position: absolute;left: -30px;top: 0;line-height: 21px;text-align: center;font-family: "NanumSquareRoundEB";}
+.cleanUp .tabContent .popupList .questionCont * {font-size: 18px;}
+.cleanUp .tabContent .popupList .questionCont p {font-family: "NanumMyeongjo-Bold";}
+
+
+.cleanUp .tabContent .popupList:nth-child(1) .questionCont .Q_imgwrap {width: 90%; margin: 0 auto;} 
+.cleanUp .tabContent .popupList:nth-child(1) .questionCont .Q_imgwrap img:nth-of-type(1) {width: 100%;}
+.cleanUp .tabContent .popupList:nth-child(1) .questionCont .Q_imgwrap img.kid {width: 50px;position: absolute;top: 190px;left: 60px;}
+.cleanUp .tabContent .popupList:nth-child(1) .questionCont .Q_imgwrap img.kid2 {top: 109px;left: 535px;}
+.cleanUp .tabContent .popupList:nth-child(1) .questionCont .Q_imgwrap span {width: 140px;position: absolute;top: 155px;left: 80px;text-align: center;font-size: 15px;}
+.cleanUp .tabContent .popupList:nth-child(1) .questionCont .Q_imgwrap span:nth-of-type(2) {top: 225px;left: 202px;}
+.cleanUp .tabContent .popupList:nth-child(1) .questionCont .Q_imgwrap span:nth-of-type(3) {top: 218px;left: 463px;}
+.cleanUp .tabContent .popupList:nth-child(1) .questionCont .inputBox {width: 30px;height: 30px;position: absolute;top: 126px;left: 203px;}
+.cleanUp .tabContent .popupList:nth-child(1) .questionCont .inputBox1 {top: 160px;left: 224px;}
+.cleanUp .tabContent .popupList:nth-child(1) .questionCont .inputBox2 {top: 195px;left: 329px;}
+.cleanUp .tabContent .popupList:nth-child(1) .questionCont .inputBox3 {top: 228px;left: 352px;}
+.cleanUp .tabContent .popupList:nth-child(1) .questionCont .inputBox4 {top: 172px;left: 470px;}
+.cleanUp .tabContent .popupList:nth-child(1) .questionCont .inputBox5 {top: 216px;left: 601px;}
+.cleanUp .tabContent .popupList:nth-child(1) .questionCont .inputBox input[type=radio] + label {width: 30px;height: 30px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+.cleanUp .tabContent .popupList:nth-child(1) .questionCont .inputBox input[type="radio"]:checked+label::after {content: '';width: 35px;height: 35px;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);border: 3px solid red;border-radius: 100%;}
+
+/* 2 */
+.cleanUp.popupOverlay .popupWrap .tabContent .topText .num2::after {content:"서술형 논술형";background: url(../images/pop/n_text.png) no-repeat center/contain;width: 92px;height: 28px;position: absolute;font-size: 14px;line-height: 32px;text-align: center;transform: rotate(-13deg);left: 24px;top: -15px;z-index: -1;color: #171c61;font-family: "NanumSquareB";}
+.cleanUp .tabContent .popupList:nth-child(2) .img {position: absolute;right: 50px;top: 80px;}
+.cleanUp .tabContent .popupList:nth-child(2) .img img {width: 220px;border-radius: 30px;}
+.cleanUp .tabContent .popupList:nth-child(2) .questionCont > div {width: 360px;position: absolute;top: 100px;left: 80px;}
+.cleanUp .tabContent .popupList:nth-child(2) .questionCont .fir > div {width: 340px;margin: 17px 0;display: flex;justify-content: space-between;position: relative;left: 10px;}
+.cleanUp .tabContent .popupList:nth-child(2) .questionCont .fir > div div {width: 48%;}
+.cleanUp .tabContent .popupList:nth-child(2) .questionCont .fir > div div img {width: 100%;display: block;}
+.cleanUp .tabContent .popupList:nth-child(2) .questionCont .fir > div span {position: absolute;top: 0px;left: -30px;}
+.cleanUp .tabContent .popupList:nth-child(2) .questionCont .sec {top: 350px;}
+.cleanUp .tabContent .popupList:nth-child(2) .questionCont .trd {width: 560px;top: 410px;}
+.cleanUp .tabContent .popupList:nth-child(2) .questionCont  select {width: 80px;height: auto;padding: 5px;position: absolute;top: 175px;left: 270px;font-size: 18px;}
+.cleanUp .tabContent .popupList:nth-child(2) .questionCont  input {position: absolute;width: 120px;height: 45px;left: 440px;border-radius: 10px;border: 2px solid #d2c8ba;top: 0;}
+.cleanUp .tabContent .popupList:nth-child(2) .questionCont textarea {position: absolute;width: 100%;height: 73px;border-radius: 10px;border: 2px solid #d2c8ba;top: 50px;}
+.in_num {width: 18px;height: 18px;color: #fff;border-radius: 100%;display: inline-block;background-color: #171c61;line-height: 21px;text-align: center;font-family: "NanumSquareRoundEB";}
+
+/* 3 */
+.cleanUp.popupOverlay .popupWrap .tabContent .topText .num3::after {content:"과학 글쓰기";background: url(../images/pop/n_text.png) no-repeat center/contain;width: 92px;height: 28px;position: absolute;font-size: 14px;line-height: 32px;text-align: center;transform: rotate(-13deg);left: 24px;top: -15px;z-index: -1;color: #171c61;font-family: "NanumSquareB";}
+.cleanUp .tabContent .popupList:nth-child(3) table td:nth-of-type(1) {width: 100px;}
+.cleanUp .tabContent .popupList:nth-child(3) table td:nth-of-type(2) {height: 205px;position: relative;background: none;}
+.cleanUp .tabContent .popupList:nth-child(3) table td img {width: 460px;position: absolute;top: -27px;left: 50%;transform: translateX(-50%);}
+.cleanUp .tabContent .popupList:nth-child(3) table td span {position: absolute;top: -5px;left: 155px; font-size: 16px;}
+.cleanUp .tabContent .popupList:nth-child(3) table td textarea {width: 120px;height: 40px;position: absolute;top: -14px;left: 269px;}
+.cleanUp .tabContent .popupList:nth-child(3) table td textarea:nth-of-type(2) {width: 100px;height: 40px;position: absolute;top: -10px;left: 397px;}
+.cleanUp .tabContent .popupList:nth-child(3) table tr:nth-of-type(2) td img {width: 520px;position: absolute;top: -27px;left: 50%;transform: translateX(-50%);}
+.cleanUp .tabContent .popupList:nth-child(3) table tr:nth-of-type(2) td span {line-height: 1.2;position: absolute;top: -2px;left: 117px;}
+.cleanUp .tabContent .popupList:nth-child(3) table tr:nth-of-type(2) td textarea {width: 150px;height: 44px;top: 8px;left: 338px;}
+.cleanUp .tabContent .popupList:nth-child(3) table tr:nth-of-type(2) td textarea:nth-of-type(2) {width: 104px;height: 59px;top: 176px;left: 301px;}
+
+
+.view {background: url(../images/common/view_img.png) no-repeat center/contain;width: 51px;height: 35px;display: inline-block;vertical-align: text-top;text-align: center;line-height: 29px;font-size: 17px;color: #191e62;font-family: "NanumSquareB";}
+.questionCont .view {position: absolute;top: 141px;left: 347px;z-index: 2;}
+
+.answerBox {width: 100%;height: 220px;background: #fcdfc1;position: absolute;bottom: 0px;}
+.answerBox .answerWrap {width: 90%; height: 90%; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+.answerBox .answer { background-color: #ffa447; border-radius: 30px 30px 0px 30px; width: 100px; height: 43px;}
+.answerBox .answer span {color: #fff;text-align: center;width: 100%;display: inline-block;font-size: 18px;line-height: 43px;font-family: "NanumSquareRoundEB";}
+.answerBox .box {margin-bottom: 60px;display: flex;}
+.answerBox .box .answerText {border-radius: 30px 30px 30px 0px;width: 552px;height: 191px;margin-left: 8px;background-color: #fff;padding-bottom: 6px;position: relative;}
+.answerBox .box .answerText > div {width: 90%;height: 90%;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);}
+.answerBox .box .answerText > div span {font-size: 18px;display: block;line-height: 28px;position: relative;margin-bottom: 10px;text-align: justify;}
+
+.tabContent .popupList:nth-of-type(1) .answerBox .box .answerText > div {width: 100%;}
+.tabContent .popupList:nth-of-type(1) .answerBox .box .answerText > div img {width: 100%;}
+
+.tabContent .popupList:nth-of-type(2) .answerBox .box .answerText > div span {left: 20px;}
+.tabContent .popupList:nth-of-type(2) .answerBox .box .answerText > div span::after {background-color: #b4b4b4;width: 20px;height: 20px;line-height: 22px;position: absolute;top: 3px;left: -20px;border-radius: 20px;color: #fff;text-align: center;margin-left: -4px;}
+.tabContent .popupList:nth-of-type(2) .answerBox .box .answerText > div span:nth-of-type(1):after {content: "1";}
+.tabContent .popupList:nth-of-type(2) .answerBox .box .answerText > div span:nth-of-type(2):after {content: "2";}
+.tabContent .popupList:nth-of-type(2) .answerBox .box .answerText > div span:nth-of-type(3):after {content: "3";}
+
+.exanswerBtn {top: 560px;}
+.nextBtn {top: 550px;}

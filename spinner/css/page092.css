@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+.topWrap .bigTitle p {left: 40px;}
+.topWrap .bigTitle img {width: 190px;height: auto;position: absolute;top: 140px;left: 170px;}
+.topWrap .topcont {width: 460px;}
+.topWrap .topcont .indent {width: 257px;position: relative;left: 200px;text-indent: 0;}
+.videoBtn {top: 160px;left: 370px;}
+.learningBtn {left: 420px;}
+
+.slideView .listBox {width: 50%;}
+.itemList .listBox img {width: 80px;}
+
+.doitWrap .videoBtn {top: 0;left: 100px;}
+
+.soundWrap {position: absolute;top: 370px;left: 115px;}
+.soundWrap .talkBtn {top: -130px;left: 45px;}
+.soundWrap .char img {width: 80px;}
+.soundWrap .balloon {width: 160px;height: 130px;position: absolute;top: -120px;left: -80px;background: url(../images/page092/92p_bal1.png)no-repeat center/contain;}
+.soundWrap .bubble {width: 136px;top: 21px;left: 12px;}
+
+.imgWrap {width: 100%;position: absolute;bottom: 0;left: 0;text-align: center;}
+.imgWrap img {width: 95%;}
+.imgWrap .tri {position: absolute;top: 180px;left: 260px;}
+
+/* 실험 관찰 */
+.subPop .popupWrap .tabContent .popupList .activityTit {width: 590px;margin-bottom: 20px;}
+.popupOverlay.subPop .popupWrap .tabTopImg::after {left: 160px;}
+.subPop .act_pop_01 table {height: 530px;}
+.subPop .act_pop_01 .imgbox {width: 70%; padding: 0 0 0 5px; background: none;}
+.subPop .act_pop_01 tr:nth-of-type(1) .imgbox > div {width: 78px;}
+.subPop .act_pop_01 tr:nth-of-type(2) .imgbox > div {width: 200px;}
+.subPop .act_pop_01 tr:nth-of-type(3) .imgbox > div {width: 290px;}
+.subPop .act_pop_01 tr:nth-of-type(4) .imgbox > div {width: 200px;}
+.subPop .act_pop_01 tr:nth-of-type(5) .imgbox > div {width: 280px;}
+.subPop .act_pop_01 .imgbox > div img {width: 100%; display: block;}
+
+
+.subPop .act_pop_01 .drag_sub {width: 90%;height: 90px;position: absolute;top: 550px;left: 50%;transform: translateX(-50%);background: #f9e9d3;}
+.subPop .act_pop_01 .drag_sub > div {position: absolute;top: 50%;left: 30px;transform: translateY(-50%);cursor: pointer;}
+.subPop .act_pop_01 .drag_sub .d1 {width: 80px;left: 80px;}
+.subPop .act_pop_01 .drag_sub .d2 {width: 80px;left: 240px;}
+.subPop .act_pop_01 .drag_sub .d3 {width: 35px;left: 400px;}
+.subPop .act_pop_01 .drag_sub .d4 {width: 35px;left: 520px;}
+.subPop .act_pop_01 .drag_sub > div > img {max-width: 100%;}
+
+.videoBg .videoWrap .tabTopImg::after {left: 170px;}
+
+/* 비디오 */
+.experimentBtn {top: 0;left: 295px;}
+.videoBg2 .videoWrap .tabtop .tabName {top: 15px;}
+.videoBg2 .videoWrap .tabTopImg::after {left: 320px;}

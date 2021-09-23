@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+.topWrap .bigTitle p {left: 40px;}
+.topWrap .bigTitle img:nth-child(1) {width: 50px;position: absolute;top: 60px;left: 158px;}
+.topWrap .bigTitle img:nth-child(2) {width: 220px;height: auto;position: absolute;top: 75px;left: 530px;}
+.topWrap .topcont {width: 267px;}
+
+.videoBtn {top: 70px;left: 500px;}
+
+#sliderWrap1 .slideView .sliceInner .itemList:nth-of-type(2) .listBox {width: 50%;}
+.itemList .listBox img {width: 75px;}
+.itemList:nth-of-type(1) .listBox:nth-of-type(3) span {width: 90px;}
+.itemList:nth-of-type(2) .listBox:nth-of-type(2) span {width: 120px;}
+
+.imgWrap {width: 840px;position: absolute;bottom: -50px;left: -70px;}
+.imgWrap .imgblock span {position: absolute;left: 755px;font-size: 13px;}
+.imgWrap .imgblock > img {width: 100%;}
+.imgWrap .imgblock .hideimg {width: 100%; display: none;}
+.imgWrap .imgblock .hideimg img {width: 290px;position: absolute;top: -5px;left: 465px;}
+.imgWrap .imgblock span:nth-of-type(1) {top: 57px;}
+.imgWrap .imgblock span:nth-of-type(2) {top: 118px;}
+.imgWrap .imgblock span:nth-of-type(3) {top: 149px;left: 750px;}
+.imgWrap .balloon {width: 153px;height: 99px;position: absolute;top: 0;left: 100px;background: url(../images/page086/86p_bal1.png)no-repeat center/contain;}
+.imgWrap .balloon span {position: absolute; top: 3px;left: 15px;text-align: center;}
+.imgWrap .talkBtn {top: -10px;left: 220px;}
+.imgWrap .clickBtn {top: 240px;left: 430px; z-index: 1;}
+
+
+/* 활용하기 */
+.openPopup2.miniPopup .exView {height: 250px;}
+.openPopup2 .popupWrap > .wordImg {width: 430px;}
+.openPopup2.miniPopup .cleanCont li::after {display: none;}
+
+.videoBg .videoWrap .tabTopImg::after {left: 200px;}
+
+/* 비디오 */
+.experimentBtn {top: 0;left: 100px;}
+.videoBg2 .videoWrap .tabTopImg::after {left: 260px;}
+.videoBg2 .videoWrap .tabtop .tabName {top: 15px;}

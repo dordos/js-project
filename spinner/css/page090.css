@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+.topWrap .bigTitle p {left: 40px;}
+.topWrap .bigTitle img:nth-child(1) {width: 210px;height: auto;position: absolute;top: 160px;left: 200px;}
+.topWrap .topcont {width: 440px;}
+.videoBtn {top: 150px;left: 360px;}
+.learningBtn {left: 440px;}
+
+#sliderWrap1 .slideView .sliceInner .itemList:last-of-type .listBox {width: 50%;}
+.itemList .listBox img {width: 80px;}
+.itemList:nth-of-type(1) .listBox:nth-of-type(1) span {width: 100px;}
+
+.imgWrap {width: 100%;position: absolute;bottom: 30px;left: 0;}
+.imgWrap .img img:nth-of-type(1) {width: 100%;}
+.imgWrap .img img:nth-of-type(2) {width: 50px;position: absolute;top: 149px;left: 505px;}
+.imgWrap .img img:nth-of-type(3) {width: 50px;position: absolute;top: 142px;left: 222px;}
+.imgWrap .tri:nth-of-type(1) {position: absolute;top: 250px;left: 140px;}
+.imgWrap .tri:nth-of-type(2) {position: absolute;top: 250px;left: 430px;}
+.hide {width: 230px;position: absolute;top: 0px; display: none;}
+.hide1 {left: 30px;}
+.hide2 {right: 10px;}
+.clickBtn1 {top: 160px;left: 230px; z-index: 1;}
+.clickBtn2 {top: 165px;left: 513px; z-index: 1;}
+
+/* 실험관찰 */
+.popupOverlay.subPop .popupWrap .tabTopImg::after {left: 160px;}
+.act_pop_01 {left: -10px;}
+.act_pop_01 table {width: 660px;}
+.act_pop_01 table tr:nth-of-type(1) {height: 30px; background: #efede7;}
+table tbody tr td:first-child {background: none;}
+
+.videoBg .videoWrap .tabTopImg::after {left: 350px;}
+
+/* 비디오 */
+.experimentBtn {top: -4px;left: 295px;}
+.videoBg2 .videoWrap .tabTopImg::after {left: 370px;}

@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+.topWrap .bigTitle p {left: 40px;}
+.topWrap .bigTitle img:nth-child(1) {width: 54px;height: auto;position: absolute;top: 180px;left: 148px;}
+.topWrap .bigTitle img:nth-child(2) {width: 160px;height: auto;position: absolute;top: 60px;left: 585px;}
+.topWrap .topcont {width: 333px;}
+.videoBtn {top: 170px;left: 530px;}
+
+.slideView .itemList:last-of-type .listBox{width: 50%;}
+.itemList .listBox img {width: 65px;}
+.itemList:nth-of-type(2) .listBox:nth-of-type(3) span {width: 85px;}
+
+.imgWrap {width: 560px;display: flex;justify-content: space-between;position: absolute;top: 420px;left: 160px;}
+.imgWrap .img {width: 48%;}
+.imgWrap .img img {width: 100%;}
+.imgWrap .img .subImg {width: 180px;display: none; position: absolute;top: -90px;left: -120px;}
+.clickBtn {top: 20px;left: 120px;z-index: 1;}
+
+.btmimg {width: 270px;position: absolute;bottom: -30px;left: -30px;}
+
+/* 활용하기 */
+.openPopup2.miniPopup .exView {height: 510px;}
+.miniPopup .popupWrap > .wordImg {width: 400px;}
+.openPopup2.miniPopup .cleanCont li::after {display: none;}
+
+/* 비디오 */
+.videoBg .videoWrap .tabTopImg::after {left: 140px;}
+
+/* 비디오 */
+.videoBg2 .videoWrap .tabtop .tabName {top: 15px;}
+.experimentBtn {top: -4px;left: 100px;}
+.videoBg2 .videoWrap .tabTopImg::after {left: 200px;}

@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+.topWrap .bigTitle p {left: 40px;}
+.topWrap .bigTitle img:nth-child(1) {width: 54px;height: auto;position: absolute;top: 40px;left: 155px;}
+.topWrap .bigTitle img:nth-child(2) {width: 150px;height: auto;position: absolute;top: 95px;left: 210px;}
+.topWrap .topcont {width: 300px; left: 390px;}
+.videoBtn{top: 50px;left: 340px;}
+.learningBtn {left: 400px;}
+
+.utilizeBtn {top: 315px;}
+.getReadyWrap {top: 70px;}
+.itemList .listBox img {width: 80px;}
+
+.doitWrap {top: 235px;}
+
+.imgWrap {width: 100%;position: absolute;bottom: -50px;left: -20px;text-align: center;}
+.imgWrap img:nth-of-type(1) {width: 100%;}
+.imgWrap img:nth-of-type(2) {width: 270px;position: absolute;top: 5px;left: 430px;}
+.imgWrap .rollarrow {width: 170px;position: absolute;top: 124px;left: 481px;}
+.imgWrap .rollarrow img {width: 100%;}
+.clickBtn {top: 850px;left: 530px;z-index: 1;}
+
+.popbox {width: 90%;height: 130px;position: absolute;top: 770px;left: 50%;transform: translateX(-50%);display: none;z-index: 6;}
+.popbox .popboxClose {width: 33px;position: absolute;top: -40px;right: 10px;z-index: 1; cursor: pointer;}
+.popbox .popin {width: 100%;height: 100%;position: absolute;top: 0;left: 0;background: #fff;box-sizing: border-box;border: 2px solid #f66032;border-radius: 15px 15px 0px 15px;box-shadow: 2px 3px 6px 1px #ababab;opacity: 0;}
+.popbox .popin .pop_t {width: 100%;line-height: 1.5;font-size: 18px;background: #ebebeb;text-align: center;border-radius: 10px 10px 0 0;}
+.popbox .popin .pop_m {width: 100%;margin: 10px 0;padding: 0 30px;}
+.popbox .popin .pop_b {width: 100%;padding: 0 15px;position: relative;left: 30px;}
+.popbox .popin .pop_b::after {content: "";width: 10px;height: 10px;position: absolute;top: 50%;left: 0;transform: translateY(-50%);background-color: #ffa86e;border-radius: 100%;box-shadow: 1px 4px 1px 0px #e0e1e1;}
+
+/* 용어 사전 */
+.openPopup2 .popupWrap {height: 660px;}
+
+/* 활용하기 */
+.openPopup3.miniPopup .exView {height: 510px;}
+.openPopup3 .popupWrap > .wordImg {width: 310px;}
+.openPopup3.miniPopup .cleanCont li::after {display: none;}
+
+/* 실험 관찰 */
+.popupOverlay.subPop .popupWrap .tabTopImg::after {left: 160px;}
+.popupOverlay .popupWrap .tabtop .tabName {left: 110px;}
+.popupOverlay.subPop .first {width: 10%;}
+.popupOverlay.subPop .second {width: 20%;}
+.act_pop_01 table tbody tr .tdBox {background: none;}
+.act_pop_01 table tbody tr .tdBox textarea {height: 60px !important;display: block;}
+.videoBg .videoWrap .tabTopImg::after {left: 150px;}
+.subPop .act_pop_01 .drag_sub {width: 90%;height: 90px;position: absolute;top: 530px;left: 50%;transform: translateX(-50%);background: #f9e9d3;}
+.subPop .act_pop_01 .drag_sub > div {width: 190px;height: 45px;padding: 5px;position: absolute;top: 50%;left: 5px;transform: translateY(-50%);cursor: pointer;background: #ebf6f4;border-radius: 10px;border: 2px solid #9fd4cb;}
+.subPop .act_pop_01 .drag_sub > div:nth-of-type(2) {left: 220px;}
+.subPop .act_pop_01 .drag_sub > div:nth-of-type(3) {left: 440px;}
+.subPop .act_pop_01 .drag_sub > div span {font-size: 16px;}

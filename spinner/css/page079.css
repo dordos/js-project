@@ -1,0 +1,62 @@
+@charset "utf-8";
+.midWrap {top: 0;}
+.utilizeBtn {top: 30px;left: 350px;}
+.midWrap .side {top: 140px;}
+
+.getReadyWrap {top: 35px;left: 235px;}
+/* 슬라이드 */
+#sliderWrap1 {height: 170px;}
+#sliderWrap1 .slideView {height: 155px;}
+#sliderWrap1 .slideView .sliceInner .itemList:nth-of-type(2) .listBox {width: 25%;}
+#sliderWrap1 .slideView .sliceInner .itemList:nth-of-type(1) .listBox:nth-of-type(1) span {width: 91px;}
+#sliderWrap1 .slideView .sliceInner .itemList:nth-of-type(1) .listBox:nth-of-type(2) span {width: 96px;}
+#sliderWrap1 .slideView .sliceInner .itemList:nth-of-type(1) .listBox:nth-of-type(3) span {width: 86px;}
+#sliderWrap1 .slideView .sliceInner .itemList:nth-of-type(2) .listBox:nth-of-type(2) span {width: 70px;}
+#sliderWrap1 .slideView .sliceInner .itemList:nth-of-type(2) .listBox:nth-of-type(4) span {width: 80px;}
+.itemList .listBox img {width: 70px}
+
+/* 해보아요 */
+.doitWrap {left: 185px;}
+.videoBtn {top: -4px;left: 100px;}
+
+/* 슬라이드 */
+#sliderWrap2 {top: 39px;left: 0;width: 560px;height: 390px;}
+#sliderWrap2 .slideView {width: 500px;height: 360px;top: 10px;background-color: #fff;border-radius: 20px;}
+#sliderWrap2 .sliceInner .itemList {width: 500px;height: 360px;position: relative;}
+#sliderWrap2 .slideView .sliceInner {width: 2000px;}
+#sliderWrap2 .slideView .itemList .cont {position: absolute;top: 46%;left: 50%;transform: translate(-50%, -50%);}
+#sliderWrap2 .slideView .itemList .cont p {font-size: 16px;position: relative;left: 50px;top: 18px;width: 340px;letter-spacing: 0px;}
+#sliderWrap2 .slideView .itemList .cont > img {width: 430px;margin: auto;display: block;}
+#sliderWrap2 .slideView .itemList .blinkimg img {width: 50px; position: absolute; animation: blink 1s step-end infinite;}
+#sliderWrap2 .slideView .itemList .blinkimg img:nth-of-type(1) {top: 25px;left: 190px;}
+#sliderWrap2 .slideView .itemList .blinkimg img:nth-of-type(2) {top: 170px;left: 190px;}
+
+
+.MyeongjoB {position: absolute;width: 315px;top: 790px;left: 415px;}
+.exviewBtn {display: block;}
+.kid {position: absolute;top: 690px;left: 10px;}
+.kid .talkBtn {top: -160px;left: 120px;}
+.kid .btmbg {width: 400px;}
+.bubble {width: 164px;height: 142px;top: -140px;left: 60px;background: url(../images/page079/79p_bal1.png)no-repeat center/cover;}
+.bubble span {position: absolute;top: 16px;left: 11px;letter-spacing: 0;}
+
+.playBtn {top: 160px;left: 200px;}
+.convideoBox {position: absolute;top: 140px;left: 60px;display: none;}
+video {width: 300px;height: auto;}
+.videoClose {right: 0;}
+
+.cleanupBtn {right: 170px;}
+/* 활용하기 */
+.openPopup3.miniPopup .exView {height: 510px;}
+.openPopup3 .wordImg {width: 400px;}
+
+/* 용어 사전 */
+.openPopup2 .popupWrap {height: 660px;}
+
+.miniPopup .exView {height: 250px;}
+
+/* 비디오 */
+.videoBg .videoWrap .tabTopImg::after {left: 290px;}
+
+/* 애니메이션 */
+@keyframes blink { 50% { opacity: 0.8; } }

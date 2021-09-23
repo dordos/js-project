@@ -1,0 +1,88 @@
+@charset "utf-8";
+.top_p span:nth-of-type(1)::before {background-image: url(../images/common/top_icon3.png);}
+
+.doitWrap {top: 75px; left: 150px;}
+.doitWrap ul {top: 0;}
+.doitWrap ul li {width: 540px;text-align: justify;}
+.textbox {position: absolute;top: 280px;left: 145px;}
+.textbox .MyeongjoB {width: 555px;}
+.textbox .MyeongjoB:nth-of-type(2) {width: 500px;position: absolute;left: 70px;top: 370px;}
+
+.imgWrap .videoBtn {top: 410px;left: 130px;}
+.imgWrap .magnet {width: 610px;position: absolute;top: 360px;left: 120px;}
+.imgWrap .magnet img {width: 100%;}
+.imgWrap .magnet span:nth-of-type(1) {position: absolute;top: 35px;left: 109px;}
+.imgWrap .magnet span:nth-of-type(2) {position: absolute;top: 35px;left: 480px;}
+.imgWrap .magnet span.tri {position: absolute;top: 160px;left: 250px;}
+
+.imgWrap .compass {width: 160px;position: absolute;top: 610px;left: 40px;}
+.imgWrap .compass img {width: 100%;}
+.imgWrap .compass span.tri {position: absolute;top: 175px;left: 60px;}
+
+.imgWrap .soundWrap {position: absolute;top: 220px;left: 35px;}
+.imgWrap .soundWrap .talkBtn {top: -125px;left: 30px;}
+.imgWrap .soundWrap .char img {width: 80px;}
+.imgWrap .soundWrap .balloon {width: 140px;height: 110px;position: absolute;top: -110px;left: -30px;background: url(../images/page087/87p_bal.png)no-repeat center/contain;}
+.imgWrap .soundWrap .bubble {width: 125px;top: 24px;left: 9px;}
+
+.imgWrap .soundWrap2 {top: 760px;left: 400px;}
+.imgWrap .soundWrap2 .talkBtn {top: -20px;left: 230px;}
+.imgWrap .soundWrap2 .char img {width: 79px;}
+.imgWrap .soundWrap2 .balloon {width: 185px;height: 113px;top: -10px;left: 80px;background: url(../images/page087/87p_bal2.png)no-repeat center/contain;}
+.imgWrap .soundWrap2 .bubble {width: 155px;top: 18px;left: 22px;}
+.supreiBtn {top: 590px;left: 430px;}
+
+
+/* 보충심화 팝업 */
+.supreiPopup .popupWrap {height: 620px;}
+.supreiPopup .sliderWrap {height: 380px;}
+.supreiPopup .sliderWrap .slideView {height: 360px;}
+.supreiPopup .sliderWrap .sliceInner {width: 2080px;}
+.supreiPopup .decstext {width: 520px;margin: 0 auto;}
+.supreiPopup .decstext p {width: 100%;font-size: 20px;}
+
+
+.openPopup1 .popupWrap {height: 680px;}
+.openPopup1 li:nth-of-type(2) img {width: 390px;margin: 25px 0;display: block;}
+.openPopup1 li:nth-of-type(3) img {width: 220px; margin-top: 15px;display: block;}
+
+/* 용어 사전 */
+.openPopup2 .popupWrap {height: 660px;}
+
+/* 실험관찰 */
+.popupOverlay.subPop .popupWrap .tabTopImg::after {left: 190px;}
+
+.act_pop_01 {width: 90%;margin: 0 auto;}
+.act_pop_01 .box {height: 230px; margin-bottom: 30px; display: flex; justify-content: space-between; position: relative;}
+.act_pop_01 .box .arrow {height: 85px;position: absolute;top: 80px;left: 280px;transform: rotate(270deg);}
+.act_pop_01 .box > div {width: 42%;}
+.act_pop_01 .box > div p {height: 40px; line-height: 40px; text-align: center; background: #bce2da;}
+.act_pop_01 .box .imgbox {height: 200px;background: #ebf6f3;}
+.act_pop_01 .box .imgbox img {height: 100%; margin: 0 auto; display: block;}
+.act_pop_01 .drag_sub {width: 500px;height: 150px;position: absolute;bottom: -180px;left: 50%;transform: translateX(-50%);border: 2px solid #ded7ce;}
+.act_pop_01 .drag_sub .fir {width: 200px;top: 60px;left: 20px;}
+.act_pop_01 .drag_sub .sec {width: 150px;top: 0;left: 230px;}
+.act_pop_01 .drag_sub .trd {width: 45px;top: 0;left: 410px;}
+.act_pop_01 .drag_sub > div img {max-width: 100%;}
+
+
+.act_pop_02 {text-align: center;}
+.act_pop_02 textarea {width: 640px; height: 134px; padding: 10px; box-sizing: border-box; border: 2px solid #d2c8ba; border-radius: 3px;}
+
+.act_pop_03 p {width: 590px;left: 50%;transform: translateX(-50%);}
+.checkText_p_list::before {content: none;}
+
+/* 정리문제 */
+.popupList:nth-child(1) .checkNum img {width: 174px;}
+
+.popupList:nth-child(2) .quizTitle,
+.popupList:nth-child(3) .quizTitle {margin-bottom: 10px;}
+.popupList:nth-child(2) .quizCont .contText {padding: 10px !important;}
+.popupList:nth-child(2) .quizCont .viewWrap {width: 100%;}
+.popupList:nth-child(2) .quizCont .checkWrap {width: 100%;}
+.popupList:nth-child(2) .quizCont .checkWrap > p  {width: 100%;padding: 15px 0;left: 0;text-indent: 14px;}
+.popupList:nth-child(2)  .checkText_p .checkText,.popupList:nth-child(2)  .checkText_p .checkText2  {line-height: 40px;}
+
+.popupList:nth-child(3) .checkNum .inputBox {width: 60%;}
+
+.videoBg .videoWrap .tabTopImg::after {left: 230px;}

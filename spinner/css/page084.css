@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+.topWrap .bigTitle p {left: 40px;}
+.topWrap .bigTitle img:nth-child(1) {width: 54px;height: auto;position: absolute;top: 20px;left: 20px;transform: rotate(33deg);}
+.topWrap .bigTitle img:nth-child(2) {width: 300px;height: auto;position: absolute;top: 150px;left: 150px;}
+.topWrap .topcont {width: 463px;}
+
+.getReadyWrap {top: 60px;}
+.itemList .listBox img {width: 65px;}
+.itemList:nth-of-type(1) .listBox:nth-of-type(3) span {width: 78px;}
+
+.videoBtn {top: 180px;left: 460px;}
+.learningBtn {left: 580px;}
+
+.doitWrap {top: 235px;}
+
+.supreiBtn {top: 420px;left: 540px;z-index: 1;}
+.imgWrap {width: 100%; position: absolute; bottom: 0; left: 0;}
+.imgWrap img {width: 100%;}
+
+.clickBtn {top: 250px;left: 630px;z-index: 1;}
+
+.subslideWrap {width: 320px;height: inherit;display: none; position: absolute;top: 60px;left: 210px;}
+.subslideWrap .subslide {width: 100%;border-radius: 15px;}
+.subslideWrap .subscroll.Vertical {width: 10px;height: 100%;position: absolute;top: 0;right: -30px;background: #ffd89b;border-radius: 5px;}
+.subslideWrap .subscroll .scrollBtn {width: 38px;position: absolute;top: 0;left: 50%;transform: translate(-50%,-50%) rotate(90deg);cursor: pointer;z-index: 1;}
+
+
+/* 보충심화 팝업 */
+.supreiPopup .popupWrap {height: 590px;}
+.supreiPopup .sliderWrap {height: 380px;}
+.supreiPopup .sliderWrap .slideView {height: 360px;}
+.supreiPopup .sliderWrap .sliceInner {width: 2080px;}
+.supreiPopup .decstext {width: 520px;margin: 0 auto;}
+.supreiPopup .decstext p {width: 100%;font-size: 20px;}
+
+.videoBg .videoWrap .tabTopImg::after {left: 290px;}
+
+/* 실험 관찰 */
+.popupOverlay.subPop .popupWrap .tabTopImg::after {left: 280px;}
+.act_pop_01 table tr:nth-of-type(2) td {height: 150px;background: none;}
+.act_pop_01 table .magnet img {width: 100%; display: block;}
+.act_pop_01 .drag_sub {width: 250px;height: 100px;position: absolute;top: 240px;left: 50%;transform: translateX(-50%);border: 2px solid #ded7ce;}
+.act_pop_01 .drag_sub > div {width: 30px;position: absolute;left: 30px; cursor: pointer;}
+.act_pop_01 .drag_sub > div:nth-of-type(2) {left: 110px;}
+.act_pop_01 .drag_sub > div:nth-of-type(3) {left: 190px;}
+.act_pop_01 .drag_sub > div > img {max-width: 100%;}

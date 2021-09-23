@@ -1,0 +1,101 @@
+@charset "utf-8";
+.top_p span:nth-of-type(1)::before {background-image: url(../images/common/top_icon1.png);}
+.top_p span:nth-of-type(2)::before {background-image: url(../images/common/top_icon3.png);}
+
+.top_p span:nth-of-type(2) {left: 113px;}
+.top_p2 {width: 220px;}
+
+/* 해보아요 */
+.doitWrap {top: 65px;left: 140px;}
+
+/* mid */
+
+.textbox {width: 425px;position: absolute;top: 280px;left: 150px;}
+
+.doitWrap ul li {width: 490px;}
+.bubblebox {width: 560px;position: absolute;top: 440px;left: 140px;}
+.bubblebox .tamburin {width: 100%;display: block;}
+/* 첫번째 이미지박스 */
+.bubblebox .balloon:nth-of-type(1) {width: 172px;height: 110px;position: absolute;top: -20px;left: -135px;background: url(../images/page081/82p_pic1.png)no-repeat center/contain;z-index: 1;}
+.bubblebox .balloon:nth-of-type(1) .talkBtn {top: -5px;left: 130px;}
+.bubblebox .balloon:nth-of-type(1) .bubble {top: 20px;left: 13px;}
+
+/* 두번째 이미지박스 */
+.bubblebox .balloon:nth-of-type(2) {width: 143px;height: 110px;position: absolute;top: 50px;left: 380px;background: url(../images/page081/82p_pic2.png)no-repeat center/cover;z-index: 1;}
+.bubblebox .balloon:nth-of-type(2) .talkBtn {top: -10px;left: 120px;}
+.bubblebox .balloon:nth-of-type(2) .bubble {top: 19px;left: 6px;}
+
+.clickwrap {width: 224px;position: absolute;}
+.clickwrap .gifimg {width: 100%;display: none;}
+.clickwrap1 {top: 0;left: 0;}
+.clickwrap1 .clickBtn {top: 260px;left: 70px;z-index: 1;}
+.clickwrap2 {bottom: -5px;right: 0;}
+.clickwrap2 .clickBtn {top: -60px;left: 90px;z-index: 1;}
+
+.supreiBtn {top: 410px;left: 340px;z-index: 2;}
+.normal {top: 830px;}
+
+/* 보충심화 팝업 */
+.supreiPopup .popupWrap {height: 547px;}
+.supreiPopup .sliderWrap {height: 380px;}
+.supreiPopup .sliderWrap .slideView {height: 360px;}
+.supreiPopup .sliderWrap .sliceInner {width: 2080px;}
+.supreiPopup .decstext {width: 540px;margin: 0 auto;}
+.supreiPopup .decstext p {width: 100%;font-size: 20px;}
+
+
+/* 용어 사전 */
+.openPopup2 .popupWrap {height: 660px;}
+
+.thinkPop .popupWrap .tabTopImg::after {left: 160px;}
+
+/* 실험 관찰 */
+.subPop .popupWrap .tabTopImg::after {left: 160px;}
+.popupOverlay .popupWrap .tabtop .tabName {left: 110px;}
+.act_pop_01 table td {height: 80px;}
+.act_pop_01 table .left {width: 120px;}
+.act_pop_01 table .right {text-align: left; background: none;}
+
+.act_pop_02 table .none {background: none;}
+
+
+.act_pop_03 p {width: 410px;position: relative;left: 50%;transform: translateX(-50%);}
+
+.popupList:nth-child(1) .imgWrap {position: absolute;top: -30px;align-items: center;height: 160px;}
+.popupList:nth-child(1) .imgWrap div {height: 148px;position: relative;width: 134px;float: left;margin-right: 10px;}
+.popupList:nth-child(1) .imgWrap div::after {color: #000;position: absolute;bottom: -30px;left: 50%;transform: translateX(-50%);font-size: 18px;}
+.popupList:nth-child(1) .imgWrap div:nth-child(1):after {content: "▴ 색종이";}
+.popupList:nth-child(1) .imgWrap div:nth-child(2):after {content: "▴ 지우개";}
+.popupList:nth-child(1) .imgWrap div:nth-child(3):after {content: "▴ 철 집게";width: 80px;}
+.popupList:nth-child(1) .imgWrap div:nth-child(4):after {content: "▴ 플라스틱 자";width: 110px;}
+.popupList:nth-child(1) .imgWrap div img {height: auto;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);width: 80%;}
+.popupList:nth-child(1) .checkNum input[type="radio"] + label{position: absolute}
+.popupList:nth-child(1) .checkNum input[type="radio"] + label:nth-child(2) {top: 0px;left: -30px;}
+.popupList:nth-child(1) .checkNum input[type="radio"] + label:nth-child(4) {top: 0;left: 133px;}
+.popupList:nth-child(1) .checkNum input[type="radio"] + label:nth-child(6) {top: 0;left: 270px;}
+.popupList:nth-child(1) .checkNum input[type="radio"] + label:nth-child(8) {top: 0;left: 424px;}
+.popupList:nth-child(1) .checkNum input[type="radio"] + label:nth-child(10) {top: 170px;left: 50px;}
+
+.popupList:nth-child(2) .quizCont  .viewWrap {width: 530px;}
+.popupList:nth-child(2) .quizCont  .viewWrap > span.contText {text-indent: 14px;}
+.popupList:nth-child(2) input {left: 50%;transform: translateX(-50%);top: 240px;}
+
+.cleanUpPro .popupList:nth-child(3) .quizCont .viewWrap {width: 590px}
+.cleanUpPro .popupList:nth-child(3) .quizCont .viewWrap .contText  {display: flex;align-items: center;}
+.cleanUpPro .popupList:nth-child(3) .quizCont .viewWrap .contText div {width: 150px;margin: 0 50px;position: relative;}
+.cleanUpPro .popupList:nth-child(3) .quizCont .viewWrap .contText div img {width: 100%;}
+.cleanUpPro .popupList:nth-child(3) .selectOption {left: 260px !important;transform: none !important;}
+.cleanUpPro .popupList:nth-child(3) .selectOption2 {left: 364px !important;}
+.cleanUpPro .popupList:nth-child(3) .quizCont .viewWrap .contText div span {position: absolute;}
+.cleanUpPro .popupList:nth-child(3) .quizCont .viewWrap .contText div:nth-of-type(1) span:nth-of-type(1){top: 8px;left: -11px;}
+.cleanUpPro .popupList:nth-child(3) .quizCont .viewWrap .contText div:nth-of-type(1) span:nth-of-type(2){top: 73px;left: 146px;}
+.cleanUpPro .popupList:nth-child(3) .quizCont .viewWrap .contText div:nth-of-type(2) span:nth-of-type(1){top: -3px;left: 23px;}
+.cleanUpPro .popupList:nth-child(3) .quizCont .viewWrap .contText div:nth-of-type(2) span:nth-of-type(2){top: 14px;left: 140px;}
+.cleanUpPro .popupList:nth-child(3) .quizCont .viewWrap .contText div:nth-of-type(2) {width: 180px;}
+
+
+
+
+.toggleText_p .toggleText {display: inline-block;border: 0px solid #000;width: auto;border-radius: 50%;padding: 0px 5px;cursor: pointer;position: relative;}
+.toggleText_p .toggleText::after {content: "";position: absolute;top: 50%;left: 0px;width: 100%;height: 32px;border-radius: 50%;transform: translateY(-50%);}
+.toggleText_p .toggleText.borderD::after {border: 2px solid #149bc7;}

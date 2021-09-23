@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/* 레이아웃 */
+#wrap {background: url(../images/page076/page076_bg.jpg)no-repeat center/contain;}
+.contWrap > div {position: relative;}
+.contWrap > div .char img {position: absolute;}
+.balloon {position: absolute;}
+
+.contWrap .bgsubimg {width: 650px;position: absolute;top: 174px;left: 7px;}
+.bgsubimg img {width: 100%;}
+
+/* 첫번째 이미지박스 */
+.contWrap > div:nth-of-type(1) {top: 120px;left: 95px;}
+.contWrap > div:nth-of-type(1) .talkBtn {top: -85px;left: 195px;}
+.contWrap > div:nth-of-type(1) .char img {width: 90px;top: 30px;left: 95px;transform: rotate(350deg);}
+.contWrap > div:nth-of-type(1) .balloon {width: 150px;height: 118px;top: -70px;left: 135px;background: url(../images/page076/76p_bal1.png)no-repeat center/contain;}
+.contWrap > div:nth-of-type(1) .bubble {width: 135px;top: 25px;left: 9px;}
+
+/* 두번째 이미지박스 */
+.contWrap > div:nth-of-type(2) {top: -20px;left: 475px;}
+.contWrap > div:nth-of-type(2) .talkBtn {top: 115px;left: 134px;}
+.contWrap > div:nth-of-type(2) .char img {width: 80px; top: 120px; left: -15px;}
+.contWrap > div:nth-of-type(2) .balloon {width: 139px;height: 110px;top: 120px;left: 70px;background: url(../images/page076/76p_bal2.png)no-repeat center/contain;}
+.contWrap > div:nth-of-type(2) .bubble {top: 37px;left: 29px;}
+
+/* 기타 버튼 */
+.videoBg .videoWrap .tabTopImg::after {left: 130px;}
+.videoBtn {top: 197px;left: 365px;width: 66px;height: 68px;z-index: 2;}
+.videoBtn img {width: 80%;}
+.videoBtn::before {content: "";width: 45px;height: 45px;position: absolute;left: 3px;top: 4px;background: #ff0000;-webkit-animation: 5s clickBtn 3s infinite ease-out;animation: 5s clickBtn 3s infinite ease-out;-webkit-border-radius: 100%;border-radius: 100%;z-index: -1;}
+
+.page {color: #fff;}

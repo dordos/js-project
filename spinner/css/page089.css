@@ -1,0 +1,80 @@
+@charset "utf-8";
+.top_p span:nth-of-type(1)::before {background-image: url(../images/common/top_icon1.png);}
+.top_p span:nth-of-type(2)::before {background-image: url(../images/common/top_icon3.png);}
+
+.top_p span:nth-of-type(2) {left: 113px;}
+.top_p2 {width: 220px;}
+
+
+/* 해보아요 */
+.doitWrap {top: 80px;left: 190px;}
+.doitWrap ul li {width: 490px;}
+.doitWrap .list2 {top: 350px;}
+.doitWrap .MyeongjoB {width: 520px;position: absolute;top: 640px;left: 0;}
+
+.doitWrap .imgbox {width: 520px;position: absolute;top: 230px;left: 30px;}
+.doitWrap .imgbox img {width: 100%;}
+.doitWrap .imgbox span {position: absolute;font-size: 14px;}
+.doitWrap .imgbox span:nth-of-type(1) {width: 80px;top: 118px;left: 196px;}
+.doitWrap .imgbox span:nth-of-type(2) {top: 201px;left: 276px;}
+.doitWrap .imgbox span:nth-of-type(3) {top: 196px;left: 413px;}
+
+.imgmove {width: 170px;position: absolute;top: 80px;left: 15px;}
+
+.soundWrap {position: absolute;top: 430px;left: 45px;}
+.soundWrap .talkBtn {top: -130px;left: 95px;}
+.soundWrap .char img {width: 110px;}
+.soundWrap .balloon {width: 150px;height: 120px;position: absolute;top: -120px;left: -20px;background: url(../images/page087/87p_bal.png)no-repeat center/contain;}
+.soundWrap .bubble {width: 136px;top: 20px;left: 9px;}
+
+.addBtn {top: 390px;left: 480px;}
+
+
+.supreiBtn {top: 800px;left: 300px;}
+
+.miniPopup .popupWrap {height: 300px;}
+
+/* 보충심화 팝업 */
+.supreiPopup .popupWrap {height: 560px;}
+.supreiPopup .sliderWrap {height: 380px;}
+.supreiPopup .sliderWrap .slideView {height: 360px;}
+.supreiPopup .sliderWrap .sliceInner {width: 2080px;}
+.supreiPopup .decstext {width: 540px;margin: 0 auto;}
+.supreiPopup .decstext p {width: 100%;font-size: 20px;}
+
+.cleanCont li img {width: 300px;margin: 30px 0;display: block;}
+
+/* 실험관찰 */
+.popupOverlay.subPop .popupWrap .tabTopImg::after {left: 230px;}
+.subPop .act_pop_01 {width: 100%; display: flex; justify-content: space-around;}
+.subPop .act_pop_01 .contbox {width: 45%; height: 220px;}
+.subPop .act_pop_01 .contbox p {width: 100%; height: 30px; line-height: 30px; background: #ebf3d4; text-align: center;}
+.subPop .act_pop_01 .contbox .imgbox {width: 100%; height: 190px; box-sizing: border-box; border: 1px solid #dcd6d1;}
+.subPop .act_pop_01 .contbox .imgbox img {width: 170px;margin: 10px auto 0;display: block;}
+.act_pop_01 .drag_sub {width: 170px;height: 110px;position: absolute;top: 240px;left: 50%;transform: translateX(-50%);border: 2px solid #ded7ce;}
+.act_pop_01 .drag_sub > div {position: absolute;cursor: pointer;}
+.act_pop_01 .drag_sub .dragone {width: 25px;left: 30px;}
+.act_pop_01 .drag_sub .dragtwo {width: 55px;left: 100px;}
+.act_pop_01 .drag_sub > div > img {max-width: 100%;}
+
+.subPop .act_pop_02 {text-align: center;}
+.subPop .act_pop_02 textarea {width: 640px; height: 134px; box-sizing: border-box; border: 2px solid #d2c8ba; border-radius: 3px;}
+
+/* 정리문제 */
+.popupList:nth-child(1) .quizCont .viewWrap {width: 100%; }
+.popupList:nth-child(1) .quizCont  p {width: 250px; text-indent: 14px;}
+.popupList:nth-child(1) .quizCont img {position: absolute;width: 290px;top: 40px;right: 10px;}
+.popupList:nth-child(1) .quizCont .checkWrap {width: 100%;height: 40px;}
+.popupList:nth-child(1) input {left: 50%;transform: translateX(-50%);top: 180px;}
+
+.popupList:nth-child(2) .inputBox {width: 100%;}
+
+.popupList:nth-child(3) .imgWrap {width: 590px;position: absolute;top: -30px;align-items: center;height: 160px;display: flex;justify-content: space-between;}
+.popupList:nth-child(3) .imgWrap div {height: 148px;position: relative;width: 278px;margin-right: 10px;}
+.popupList:nth-child(3) .imgWrap div::after {color: #000;position: absolute;bottom: -5px;left: 50%;transform: translateX(-50%);font-size: 18px;}
+.popupList:nth-child(3) .imgWrap div:nth-child(1):after {content: "▲ 이쑤시개";}
+.popupList:nth-child(3) .imgWrap div:nth-child(2):after {content: "▲ 바늘";}
+.popupList:nth-child(3) .imgWrap div img {height: auto;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);width: 80%;}
+.popupList:nth-child(3) .checkNum input[type="radio"] + label{position: absolute}
+.popupList:nth-child(3) .checkNum input[type="radio"] + label:nth-child(2) {top: 0px;left: -10px;}
+.popupList:nth-child(3) .checkNum input[type="radio"] + label:nth-child(4) {top: 0;left: 273px;}

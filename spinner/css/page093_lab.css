@@ -1,0 +1,263 @@
+@charset "utf-8";
+
+.lab_content {
+}
+
+.compassArea {
+	width: 950px;
+	height: 600px;
+	line-height: 550px;
+	text-align: center;
+	position: relative;
+	left: 270px;
+	top: 210px;
+}
+
+.compassArea img {
+	height: 65px;
+	width: 285px;
+	vertical-align: middle;
+}
+
+.compassBox {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 950px;
+	height: 600px;
+}
+
+.compass {
+	width: 160px;
+	height: 160px;
+	position: absolute;
+}
+
+.compass .cAnswer {
+	display: block;
+	width: 160px;
+	height: 160px;
+
+}
+
+.compass1 {
+	background: url("../images/page092/lab/90p_5_lab02.png") no-repeat center/contain;
+	top: 195px;
+	left: 0px;
+}
+
+.compass2 {
+	background: url("../images/page092/lab/90p_5_lab02.png") no-repeat center/contain;
+	top: 0px;
+	left: 200px;
+	display: none;
+}
+
+.compass3 {
+	background: url("../images/page092/lab/90p_5_lab02.png") no-repeat center/contain;
+	top: 0px;
+	right: 200px;
+	display: none;
+}
+
+.compass4 {
+	background: url("../images/page092/lab/90p_5_lab02.png") no-repeat center/contain;
+	top: 195px;
+	right: 0px;
+	display: none;
+}
+
+.compass5 {
+	background: url("../images/page092/lab/90p_5_lab02.png") no-repeat center/contain;
+	bottom: 0px;
+	left: 200px;
+	display: none;
+}
+
+.compass6 {
+	background: url("../images/page092/lab/90p_5_lab02.png") no-repeat center/contain;
+	bottom: 0px;
+	right: 200px;
+	display: none;
+}
+
+.help_p {
+	font-size: 30px;
+	position: absolute;
+	top: 530px;
+	left: 480px;
+	display: none;
+}
+
+.help_p span {
+	color: red;
+	font-size: 30px;
+}
+
+
+.itemBox {
+	width: 180px;
+	height: 540px;
+	background: url(../images/page092/lab/90p_5_lab14.png) no-repeat center/contain;
+	position: absolute;
+	top: 240px;
+	right: 110px;
+	padding: 20px 12px;
+	box-sizing: border-box;
+}
+
+.item {
+	width: 77px;
+	height: 165px;
+	float: left;
+	cursor: pointer;
+	margin-bottom: 15px;
+}
+
+.item1 {
+	background: url("../images/page092/lab/90p_5_lab08.png") no-repeat center/contain;
+}
+
+.item2 {
+	background: url("../images/page092/lab/90p_5_lab09.png") no-repeat center/contain;
+	
+}
+
+.item3 {
+	background: url("../images/page092/lab/90p_5_lab10.png") no-repeat center/contain;
+}
+
+.item4 {
+	background: url("../images/page092/lab/90p_5_lab11.png") no-repeat center/contain;
+}
+
+.item5 {
+	background: url("../images/page092/lab/90p_5_lab12.png") no-repeat center/contain;
+	width: 154px;
+	height: 55px;
+}
+
+.item6 {
+	background: url("../images/page092/lab/90p_5_lab13.png") no-repeat center/contain;
+	width: 154px;
+	height: 55px;
+}
+
+.item:not(.move):hover {
+	opacity: 0.7;
+	transform: scale(0.95);
+	transition: all 0.2s ease-in-out;	
+}
+
+
+
+
+.help_start {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	display: none;
+	z-index: 10;
+}
+.help_box {
+	width: 175px;
+	height: 550px;
+	border: 4px dashed #fff;
+	border-radius: 10px;
+	position: absolute;
+	top: 235px;
+	left: 1250px;
+	/* animation-name: blink2;
+	animation-duration: 2s;
+	animation-delay: 5s;
+	animation-iteration-count: 3;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+	z-index: 11; */
+}
+
+.help_box2 {
+	width: 160px;
+	height: 160px;
+	border: 3px dashed yellowgreen;
+	position: absolute;
+	left: 268px;
+	top: 404px;
+	/* animation-name: blink3;
+	animation-duration: 2s;
+	animation-delay: 10s;
+	animation-iteration-count: 3;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+	z-index: 11; */
+}
+
+@keyframes blink2 {
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+
+	100%,
+	50% {
+		opacity: 1;
+	}
+}
+
+@keyframes blink3 {
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+
+	100%,
+	50% {
+		opacity: 1;
+	}
+}
+
+.help_start_text {
+	position: absolute;
+	top: 245px;
+	left: 880px;
+	width: 400px;
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+	z-index: 11;
+	font-family: "NanumSquareRoundEB";
+}
+
+.help_start_text2 {
+	position: absolute;
+	top: 360px;
+	left: 160px;
+	width: 400px;
+	color: yellowgreen;
+	font-size: 24px;
+	text-align: center;
+	z-index: 11;
+	font-family: "NanumSquareRoundEB";
+}
+
+.start {
+	top: 120px;
+	right: 20px;
+	z-index: 12;	
+}
+
+.start.on {
+	animation-name: blink4;
+    animation-duration: 1s;
+    animation-delay: 15s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+

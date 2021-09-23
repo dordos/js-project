@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/* 레이아웃 */
+#wrap {background: url(../images/page078/78p_comic_01.png)no-repeat center/contain;}
+
+.contWrap > div {position: relative;}
+
+.contWrap > .top p {position: absolute;}
+.contWrap > .top .think {top: 70px;left: 78px;font-family: "NanumSquareEB";color: #fff;}
+.contWrap > .top .think span {font-family: "NanumSquareEB"; color: #fff100;}
+
+.contWrap > .top .tit {top: 95px; left: 60px; font-family: "NanumSquareRoundEB"; font-size: 40px;}
+.contWrap > .top .tit span {font-family: "NanumSquareRoundEB"; font-size: 45px;}
+.contWrap > .top .tit .yellow { text-shadow: -2px -2px 0 #532b2b, 2px -2px 0 #532b2b, -2px 2px 0 #532b2b, 2px 2px 0 #532b2b;  color: #fff100;}
+
+.contWrap > .top .titcont {width: 575px;line-height: 27px;top: 210px;left: 65px;text-indent: 18px;font-family: "NanumSquareB";font-size: 18px;text-align: justify;}
+
+.contWrap > .top .learningBtn {top: 277px; left: 62px;}
+
+
+.blackBg {width: 650px;top: 350px;position: absolute !important;left: 70px;}
+.blackBg img {width:100%}
+
+
+.bubble {width: 100%;}
+.anitalkBtn {top: 345px;left: 54px;}
+.sound .soundWrap {position: absolute;}
+.sound .soundWrap:nth-child(1) {width: 198px;top: 360px;left: 110px;}
+.sound .soundWrap:nth-child(2) {width: 97px;top: 371px;left: 383px;}
+.sound .soundWrap:nth-child(3) {width: 75px;top: 469px;left: 606px;}
+.sound .soundWrap:nth-child(4) {width: 203px;top: 560px;left: 500px;}
+.sound .soundWrap:nth-child(5) {width: 243px;top: 610px;left: 80px;}
+.sound .soundWrap:nth-child(6) {width: 85px;top: 650px;left: 435px;}
+.sound .soundWrap:nth-child(7) {width: 120px;top: 630px;left: 580px;}
+
+
+
+.convideoBox {position: absolute; top: 0; left: 40px; display: none; }
+.videoClose {background:url(../images/video/videoclose.png) no-repeat center/contain;width: 34px;height: 34px;position: absolute;top: 0px;right: 0px;cursor: pointer;z-index: 2;}
+
+.videoBtn {margin-left: 10px;}
+/* 동영상 자막 */
+.videoBg .videoWrap .tabtop .tabName {top: 15px;}
+.videoBg .videoWrap .tabTopImg::after {left: 260px;}
+.scriptBox p {float: left;}
+.scriptBox .left{width: auto;margin-right: 5px;}
+.scriptBox .right{width: 91%;}
+
+/* 용어 사전 */
+.openPopup2 .popupWrap {height: 660px;}

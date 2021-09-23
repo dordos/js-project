@@ -1,0 +1,83 @@
+@charset "utf-8";
+.top_p {z-index: 1;}
+.top_p span:nth-of-type(1)::before {background-image: url(../images/common/top_icon3.png);}
+
+.subslideWrap {width: 600px;height: auto;position: absolute;top: 0;left: 190px;}
+.subslideWrap .subslide {width: 100%;border-radius: 15px;}
+.subslideWrap .subscroll.Vertical {width: 10px;height: 200px;position: absolute;top: 60px;left: -30px;background: #ffd89b;border-radius: 5px;}
+.subslideWrap .subscroll .scrollBtn {width: 38px;position: absolute;top: 0%;left: 50%;transform: translate(-50%,-50%) rotate(90deg);cursor: pointer;z-index: 1;}
+
+
+.supreiBtn {top: 280px;left: 40px;}
+
+/* 해보아요 */
+.doitWrap {top: 340px;left: 140px;}
+.doitWrap ul {top: 0;left: 0;}
+.doitWrap ul li {width: 520px;margin-bottom: 20px;}
+
+.contWrap .MyeongjoB {width: 540px;position: absolute;top: 455px;left: 110px;}
+
+.kid {width: 100%;position: absolute;top: 640px;}
+.videoBtn {top: -20px;left: 390px;}
+.kid .bigimg {width: 610px;position: absolute;top: 0;left: 110px;}
+.kid .bigimg img {width: 100%;}
+.kid .bigimg .point {position: absolute;top: 80px;left: 25px;z-index: 1;}
+.kid .bigimg span:nth-of-type(2) {left: 520px;}
+.point.ani::before {content: "";width: 80px;height: 80px;display: block;position: absolute;left: -10px;top: -30px;background: #b1dcd1;-webkit-animation: point 3000ms infinite ease-out;animation: point 3000ms infinite ease-out;-webkit-border-radius: 100%;border-radius: 100%;z-index: -1;}
+.kid .bigimg span.tri {position: absolute;top: 160px;left: 260px;font-size: 16px;}
+.kid .bigimg span.tri::before {top: 6px;}
+
+@keyframes point {
+	0% { transform: scale(1); opacity: 0;  }
+	20% { transform: scale(1); opacity: 0.8;  }
+	60% { transform: scale(1.8); opacity: 0;   }
+	100% { transform: scale(1.8); opacity: 0;   }
+}
+
+.kid .soundWrap {position: absolute;top: 20px;left: 40px;}
+.kid .soundWrap .talkBtn {top: -120px;left: 30px;}
+.kid .soundWrap .char img {width: 79px;}
+.kid .soundWrap .balloon {width: 140px;height: 107px;position: absolute;top: -100px;left: -30px;background: url(../images/page085/85p_bal1.png)no-repeat center/contain;}
+.kid .soundWrap .bubble {width: 105px;top: 20px;left: 20px;}
+
+.kid .soundWrap2 {top: -90px;left: 615px;}
+.kid .soundWrap2 .talkBtn {top: -30px;left: -150px;}
+.kid .soundWrap2 .char img {width: 99px;transform: rotate(15deg);}
+.kid .soundWrap2 .balloon {width: 160px;height: 75px;position: absolute;top: -20px;left: -150px;background: url(../images/page085/85p_bal2.png)no-repeat center/contain;}
+.kid .soundWrap2 .bubble {width: 145px;top: 10px;left: 0px;}
+
+
+
+/* 보충심화 팝업 */
+.supreiPopup .popupWrap {height: 520px;}
+.supreiPopup .sliderWrap {height: 380px;}
+.supreiPopup .sliderWrap .slideView {height: 380px;}
+.supreiPopup .sliderWrap .sliceInner {width: 2080px;}
+.supreiPopup .sliderWrap .sliceInner p {font-size: 20px;position: relative;left: 21px;}
+.supreiPopup .sliderWrap .sliceInner .tri::before {top: 8px;border-bottom: 14px solid #939393;border-right: 8px solid transparent;border-left: 8px solid transparent;left: -19px;}
+
+.checkWrap2 p {width: 430px; left: -5px;}
+
+/* 실험관찰 */
+.popupOverlay.subPop .popupWrap .tabTopImg::after {left: 290px;}
+.act_pop_01 table tr td:first-of-type {width: 25%;}
+.act_pop_01 table .none {background: none;}
+
+
+.act_pop_02 p {width: 540px;position: relative;left: 50%;transform: translateX(-50%);}
+.checkText_p_list::before {content: none;}
+
+
+.popupList:nth-child(1) .quizCont .viewWrap {width: 100%;height: 285px;top: 30px;}
+.popupList:nth-child(1) .quizCont .checkWrap {width: 100%;height: 63px;position: relative;top: 192px;line-height: 8px;}
+.popupList:nth-child(1) .quizCont .img {position: absolute; left: 50%; transform: translateX(-50%);}
+.popupList:nth-child(1) .quizCont img {width: 360px;}
+.popupList:nth-child(1)  .checkText_p .checkText {font-size: 18px;line-height: 40px;text-indent: 0;}
+.popupList:nth-child(1) .quizCont .viewWrap  .contText {padding:15px 10px;}
+.popupList:nth-child(1)  .checkText_p_list span {line-height: 47px;}
+.popupList:nth-child(1)  .checkText_p_list  {height: 70px;text-indent: 14px;}
+
+.popupList:nth-child(2) .quizCont .viewWrap {width: 100%; }
+.popupList:nth-child(2) input {left: 50%;transform: translateX(-50%);top: 140px;}
+
+.popupList:nth-child(3) .checkNum .inputBox {width: 100%}

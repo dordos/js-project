@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+.topWrap .bigTitle img:nth-child(1) {width: 54px;height: auto;position: absolute;top: 20px;left: 20px;transform: rotate(33deg);}
+.topWrap .bigTitle img:nth-child(2) {width: 150px;height: auto;position: absolute;top: 120px;left: 170px;}
+.topWrap .topcont {width: 510px;}
+.topWrap .topcont .indent {text-indent: 110px;}
+.videoBtn {top: 160px;left: 300px;}
+.learningBtn {left: 530px;}
+
+#sliderWrap1 .slideView .sliceInner .itemList:last-of-type .listBox {width: 50%;}
+#sliderWrap1 .itemList .listBox img {width: 60px;}
+
+.doitWrap ul li {z-index: 1;}
+
+.imgWrap {width: 100%;position: absolute; bottom: 0; left: 0;}
+.imgWrap .img1 {width: 100%;position: relative;}
+.imgWrap .img1 img {width: 100%;}
+.imgWrap .img1 .tri {width: 110px;position: absolute;top: 100px;left: 470px;}
+.imgWrap > img {width: 110px;position: absolute;top: 50px;left: 250px;}
+.imgWrap .img2 {width: 250px;position: absolute;top: -110px;left: 0;}
+.imgWrap .img2 img {width: 100%;position: absolute;top: 22px;}
+.imgWrap .img2 .gifimg {display: none; top: -60px;}
+.imgWrap .img2 .tri {position: absolute;top: 230px;left: 100px;}
+.clickBtn {bottom: 220px;left: 200px;z-index: 1;}
+
+/* 용어 사전 */
+.openPopup2 .popupWrap {height: 630px;}
+#sliderWrap2 {width: 680px;height: 400px;top: 210px;left: 20px;}
+#sliderWrap2 .slideView {width: 630px;height: 380px;}
+#sliderWrap2 .sliceInner {display: flex;}
+#sliderWrap2 .slideView .itemList {width: 630px;float: none;}
+#sliderWrap2 .slideView .itemList .cont {position: relative;}
+#sliderWrap2 .slideView .itemList .exSentence {top: 30px;left: 85px;}
+#sliderWrap2 .slideView .itemList .exSentence > p {width: 400px;left: -80px;}
+#sliderWrap2 .slideView .itemList .exSentence > span {width: 555px;left: -20px;}
+#sliderWrap2 .slideView .itemList .exSentence span span {left: -60px;}
+#sliderWrap2 .arrowLeft {width: 20px;height: 33px;background: url(../images/page077/button_slideP.png) no-repeat center bottom/cover;}
+#sliderWrap2 .arrowRight {width: 20px;height: 33px;background: url(../images/page077/button_slideN.png) no-repeat center bottom/cover;}
+#sliderWrap2 .arrowLeft.off {background: url(../images/page077/button_slideP.png) no-repeat center top 1px/cover;}
+#sliderWrap2 .arrowRight.off {background: url(../images/page077/button_slideN.png) no-repeat center top 1px/cover;}
+#sliderWrap2 .slideDotWrap .slideDot.active {background-color: #44b6dc;}
+#sliderWrap2 .wordImg {position: absolute;top: 120px;left: 50%;transform: translateX(-50%);}
+
+/* 활용하기 */
+.openPopup3.miniPopup .exView {height: 310px;}
+.openPopup3 .popupWrap > .wordImg {width: 500px;top: 150px;}
+.openPopup3.miniPopup .cleanCont li::after {display: none;}
+
+/* 실험관찰 */
+.popupOverlay.subPop .popupWrap .tabTopImg::after {left: 220px;}
+
+.act_pop_01 p {width: 540px;position: relative;left: 50%;transform: translateX(-50%);}
+.checkText_p_list::before {content: none;}
+
+.act_pop_02 table td {height: 80px;}
+.act_pop_02 table .left {width: 120px;}
+.act_pop_02 table .right {text-align: left; background: none;}
+.act_pop_02 .checkText_p_list {left: 0;}
+
+.videoBg .videoWrap .tabTopImg::after {left: 410px;}
+.videoBg .videoWrap .tabtop .tabName {left: 95px;}
+
+
+/* 비디오 */
+.experimentBtn {top: 0;left: 255px;}
+.videoBg2 .videoWrap .tabtop .tabName {left: 110px;}
+.videoBg2 .videoWrap .tabTopImg::after {left: 230px;}

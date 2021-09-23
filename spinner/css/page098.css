@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+#wrap {background: url(../images/page098/98p_.png)no-repeat center/contain;}
+
+.top {top: 60px;left: 50%;transform: translateX(-50%);width: 100%;position: relative;}
+
+.top > .name {width: 590px;position: relative; left: 47%; transform: translateX(-50%);}
+.top > .name .images p {position: absolute;top: 8px;left: 21px;transform: rotate(349deg);text-align: center;color: #fff;}
+.top > .name .images p span {line-height: 1.5;text-shadow: -1px -1px 0 #064892, 1px -1px 0 #064892, -1px 1px 0 #064892, 1px 1px 0 #064892; font-size: 23px;}
+.top > .name .images p span:nth-of-type(1) {color: #fff100;}
+.top > .name .images p span:nth-of-type(2) {color: #fff;}
+
+
+.top > .name > p {width: 440px;position: relative;top: -10px;left: 160px;text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;font-family: "NanumSquareEB";font-size: 46px;color: #252161;}
+.top > .name > p span {position: absolute;top: 60px;left: 130px;letter-spacing: -3px;text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;font-family: "NanumSquareEB";font-size: 55px;color: #fff;}
+.videoBtn {top: 90px;left: 130px;}
+
+.supreiBtn {top: 140px;left: 175px;}
+/* 보충심화 팝업 */
+.supreiPopup .popupWrap {height: 830px;}
+.supreiPopup .sliderWrap {height: 380px;}
+.supreiPopup .sliderWrap .slideView {height: 550px;}
+.supreiPopup .sliderWrap .sliceInner {width: 2080px;}
+.supreiPopup .sliderWrap .sliceInner .itemList img {width: 80%;display: block;margin: 0 auto;}
+.supreiPopup .decstext {width: 520px;margin: 0 auto;}
+.supreiPopup .decstext p {width: 100%;font-size: 20px;text-align: justify;}
+
+.blackBg {width: 700px;top: 243px;position: absolute !important;left: 30px;}
+.blackBg img {width:100%}
+
+.bubble {width: 100%;}
+.anitalkBtn {top: 215px;left: 75px;}
+.sound .soundWrap {position: absolute;}
+.sound .soundWrap:nth-child(1) {width: 90px;top: 273px;left: 90px;}
+.sound .soundWrap:nth-child(2) {width: 167px;top: 257px;left: 234px;}
+.sound .soundWrap:nth-child(3) {width: 145px;top: 270px;left: 448px;}
+.sound .soundWrap:nth-child(4) {width: 153px;top: 514px;left: 66px;}
+.sound .soundWrap:nth-child(5) {width: 193px;top: 501px;left: 470px;}
+.sound .soundWrap:nth-child(6) {width: 95px;top: 562px;left: 416px;}
+.sound .soundWrap:nth-child(7) {width: 100px;top: 559px;left: 541px;}
+.sound .soundWrap:nth-child(8) {width: 180px;top: 723px;left: 78px;}
+.sound .soundWrap:nth-child(9) {width: 140px;top: 727px;left: 404px;}
+.sound .soundWrap:nth-child(10) {width: 120px;top: 730px;left: 598px;}
+
+/* 동영상 자막*/
+.videoBg .videoWrap .tabTopImg::after {left: 150px;}
+.videoBg .scriptBox {height: 390px;}
+.scriptBox p {float: left;}
+.scriptBox p:nth-child(15) {margin-bottom: 0px;}
+.scriptBox p:nth-child(16) {margin-bottom: 0px;}
+.scriptBox .left{width: auto;margin-right: 6px;}
+.scriptBox .right{width: 560px;}
+.scriptBox .long {width: 530px;}
