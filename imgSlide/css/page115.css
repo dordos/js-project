@@ -1,0 +1,313 @@
+@charset "utf-8";
+
+.preloadImage {
+  opacity: 0.1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  outline: 1px solid;
+}
+
+#wrap {
+  background: url(../images/page115/115p_bg.png) no-repeat center/contain;
+}
+.top_p span:nth-of-type(1)::before {
+  background-image: url(../images/common/top_icon1.png);
+}
+.top_p span:nth-of-type(2)::before {
+  background-image: url(../images/common/top_icon3.png);
+}
+
+.top_p span:nth-of-type(2) {
+  left: 113px;
+}
+.top_p {
+  width: 220px;
+}
+
+/* 해보아요 */
+.doitWrap {
+  top: 80px;
+  left: 150px;
+}
+.doitWrap ul li {
+  width: 310px;
+}
+
+.soundWrap1 {
+  position: absolute;
+  top: 450px;
+  left: -35px;
+}
+.soundWrap1 .talkBtn {
+  top: -115px;
+  left: 50px;
+}
+.soundWrap1 .char img {
+  width: 70px;
+  transform: scaleX(-1);
+}
+.soundWrap1 .balloon {
+  width: 160px;
+  height: 110px;
+  position: absolute;
+  top: -110px;
+  left: -80px;
+  background: url(../images/page115/115p_pic3.png) no-repeat center/contain;
+}
+.soundWrap1 .bubble {
+  top: 20px;
+  left: 14px;
+}
+
+.subslideWrap {
+  width: 440px;
+  position: absolute;
+  top: 260px;
+  left: 80px;
+}
+/* .scrollimg img.showimg {
+  opacity: 1;
+} */
+.scrollimg img {
+  opacity: 0.001;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.scrollimg img.show {
+  opacity: 1;
+}
+.subslideWrap .subscroll.Horizontal {
+  width: 37%;
+  height: 10px;
+  position: absolute;
+  top: 330px;
+  right: 50px;
+  background: #ffd89b;
+  border-radius: 5px;
+}
+.subslideWrap .subscroll .scrollBtn {
+  width: 38px;
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translate(50%, -50%);
+  cursor: pointer;
+  z-index: 1;
+}
+.positionCDot {
+  position: absolute;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #e1a951;
+  pointer-events: none;
+}
+.positionCDot:nth-child(2) { left: 0px; }
+.positionCDot:nth-child(3) { left: calc(50% - 5px); }
+.positionCDot:nth-child(4) { right: 0px; }
+.soundWrap2 .talkBtnDrag {
+  top: 5px;
+  left: 80px;
+  width: 33px;
+  height: 34px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 1;
+  transform: scale(1);
+}
+
+.textBox {
+  width: 439px;
+  position: absolute;
+  top: 640px;
+  left: 0px;
+}
+.normal {
+  top: 830px;
+}
+.studyBtn {
+  right: 180px;
+}
+.cleanupBtn {
+  right: 300px;
+}
+.supreiBtn {
+  top: 820px;
+  left: 430px;
+}
+
+/* 보충심화 팝업 */
+.supreiPopup .popupWrap {
+  height: 580px;
+}
+.supreiPopup .sliderWrap {
+  height: 380px;
+}
+.supreiPopup .sliderWrap .slideView {
+  height: 360px;
+}
+.supreiPopup .decstext {
+  width: 520px;
+  margin: 0 auto;
+}
+.supreiPopup .decstext p {
+  width: 100%;
+  font-size: 20px;
+  text-indent: 18px;
+}
+
+/* 팝업 */
+.popupOverlay .popupWrap .tabTopImg::after {
+  left: 245px;
+}
+/* 실험관찰 */
+.subPop .act_pop_01 .tdBox {
+  height: 180px;
+  background: none;
+}
+.subPop .act_pop_01 textarea {
+  display: block;
+}
+
+.subPop .act_pop_02 p {
+  width: 580px;
+  margin: 0 auto;
+}
+
+.subPop .act_pop_03 {
+  text-align: center;
+}
+.subPop .act_pop_03 textarea {
+  width: 640px;
+  height: 134px;
+  box-sizing: border-box;
+  border: 2px solid #d2c8ba;
+  border-radius: 3px;
+}
+
+/* 정리문제 */
+/* 이거랑 똑같은 유형 아니면 웬만하면 복사 x  */
+.cleanUpPro .popupList:nth-child(1) .quizCont {
+  height: 205px;
+  width: 640px;
+}
+.cleanUpPro .popupList:nth-child(1) .quizCont .QDrag {
+  height: 120px;
+  width: 640px;
+  z-index: 2;
+}
+.cleanUpPro .popupList:nth-child(1) .dragTarget {
+  top: 11px;
+  left: 10px;
+  width: 185px;
+  height: 97px;
+  position: absolute;
+  z-index: 2;
+}
+.cleanUpPro .popupList:nth-child(1) .target2 {
+  left: 223px;
+}
+.cleanUpPro .popupList:nth-child(1) .target3 {
+  left: 438px;
+}
+.cleanUpPro .popupList:nth-child(1) .dragBox {
+  top: 140px;
+  height: 117px;
+}
+.cleanUpPro .popupList:nth-child(1) .dragBox > div {
+  position: absolute;
+  width: 190px !important;
+  height: 89px !important;
+  top: 12px;
+}
+.cleanUpPro .popupList:nth-child(1) .drag1 {
+  left: 10px;
+}
+.cleanUpPro .popupList:nth-child(1) .drag2 {
+  left: 221px;
+}
+.cleanUpPro .popupList:nth-child(1) .drag3 {
+  left: 431px;
+}
+.cleanUpPro .popupList:nth-child(1) .dragTarget::after {
+  content: '→';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -21px;
+}
+.cleanUpPro .popupList:nth-child(1) .dragTarget:nth-last-of-type(1):after {
+  display: none;
+}
+
+.cleanUpPro .popupList:nth-child(1) .dragBox > .drag.complete {
+  top: -135px;
+  left: 175px;
+}
+.cleanUpPro .popupList:nth-child(1) .drag.complete {
+  width: 180px;
+  height: 89px;
+  left: 0px;
+}
+.cleanUpPro .popupList:nth-child(1) .textDrag .drag > span {
+  display: flex;
+  text-align: center;
+  padding: 0 7px;
+  justify-content: space-around;
+}
+.cleanUpPro .popupList:nth-child(1) .textDrag .drag > span i {
+  font-style: normal;
+  font-size: 19px;
+  text-align: justify;
+}
+.cleanUpPro .popupList:nth-child(1) .textDrag .drag > span i:nth-of-type(1) {
+  margin-right: 7px;
+}
+
+.cleanUpPro .popupList:nth-child(2) .quizCont .viewWrap {
+  width: 100%;
+}
+.cleanUpPro .popupList:nth-child(2) .quizCont .contText {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+}
+.cleanUpPro .popupList:nth-child(2) .quizCont p {
+  width: 270px;
+  margin-right: 10px;
+  text-indent: 14px;
+}
+.cleanUpPro .popupList:nth-child(2) .quizCont img {
+  width: 230px;
+}
+.cleanUpPro .popupList:nth-child(2) input {
+  left: 50%;
+  transform: translateX(-50%);
+  top: 200px;
+}
+
+.cleanUpPro .popupList:nth-child(3) .quizCont .viewWrap {
+  width: 100%;
+}
+.cleanUpPro .popupList:nth-child(3) .quizCont .viewWrap .contText > p {
+  text-indent: 14px;
+  width: 495px;
+}
+.cleanUpPro .popupList:nth-child(3) .checkText_p .selectText {
+  font-size: 18px;
+  line-height: 40px;
+  padding: 0;
+}
+
+.scrollBtn img {
+  pointer-events: none;
+}
+.scrollimg {
+  pointer-events: none;
+}
