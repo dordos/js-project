@@ -24,10 +24,7 @@ window.addEventListener('load', () => {
   const wrap = document.querySelector('.wrap');
   const answerPopUp = document.querySelector('.pupUpBtn');
 
-  const drItems = Array.prototype.map.call(
-    document.querySelectorAll('.dr_item'),
-    (el) => el
-  );
+  const drItems = Array.prototype.map.call(document.querySelectorAll('.dr_item'), (el) => el);
 
   const items = drItems.map((item) => {
     return { item, state: false };
@@ -70,10 +67,7 @@ window.addEventListener('load', () => {
   function getItemPoint(event) {
     let roleValue;
     let index = 0;
-    const element = document.elementFromPoint(
-      getEventPosition(event).x,
-      getEventPosition(event).y
-    );
+    const element = document.elementFromPoint(getEventPosition(event).x, getEventPosition(event).y);
 
     function get(__element) {
       const value = __element.getAttribute('data-role-val');
@@ -88,12 +82,7 @@ window.addEventListener('load', () => {
       if (!value) {
         __element.style.pointerEvents = 'none';
         offPointerElements.push(__element);
-        get(
-          document.elementFromPoint(
-            getEventPosition(event).x,
-            getEventPosition(event).y
-          )
-        );
+        get(document.elementFromPoint(getEventPosition(event).x, getEventPosition(event).y));
       } else {
         roleValue = value;
         offPointerElements.forEach((el) => (el.style.pointerEvents = 'auto'));
@@ -123,9 +112,7 @@ window.addEventListener('load', () => {
   }
 
   const getEventPosition = (event) => {
-    const eventTarget = isTouchEvent(event)
-      ? event.changedTouches[0] || event.touches[0]
-      : event;
+    const eventTarget = isTouchEvent(event) ? event.changedTouches[0] || event.touches[0] : event;
 
     return {
       x: eventTarget.clientX,
