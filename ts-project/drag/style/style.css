@@ -1,7 +1,7 @@
 :root {
   --bg-main-color: #00000080;
   --bg-accent-color: #2d2d2d;
-  --accent-color: #f64435;
+  --accent-color: #3b78a1;
   --text-accent-color: #ffe498;
   --text-edit-bg-color: #575757;
   --border-color: #3f3f3f;
@@ -247,4 +247,25 @@ body {
 .todo-label {
   padding: 1em;
   color: var(--smokywhite);
+}
+
+.mute-children * {
+  pointer-events: none;
+}
+
+.lifted {
+  animation: drag_start 250ms;
+  opacity: 0.2;
+}
+
+@keyframes drag_start {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+.drop-area {
+  border: 3px solid var(--accent-color);
 }
