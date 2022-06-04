@@ -41,11 +41,11 @@ class App {
     );
 
     this.page.addChild(new ImageComponent('Image Title', 'https://picsum.photos/800/400'));
-    this.page.addChild(new NoteComponent('Image Title', 'test'));
+    this.page.addChild(new NoteComponent('Note Title', 'test'));
     this.page.addChild(new ImageComponent('Image Title', 'https://picsum.photos/800/400'));
-    this.page.addChild(new NoteComponent('Image Title', 'test'));
+    this.page.addChild(new NoteComponent('Note Title', 'test'));
     this.page.addChild(new ImageComponent('Image Title', 'https://picsum.photos/800/400'));
-    this.page.addChild(new NoteComponent('Image Title', 'test'));
+    this.page.addChild(new NoteComponent('Note Title', 'test'));
 
     // const imageBtn = document.querySelector('#new-image')! as HTMLButtonElement;
     // imageBtn.addEventListener('click', () => {
