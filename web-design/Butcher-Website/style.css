@@ -1,0 +1,48 @@
+:root {
+  --color-personal: rgb(231, 190, 100);
+  --color-white: #ffffff;
+  --color-light-white: #eeeeee;
+  --color-dark-white: #bdbdbd;
+  --color-gray: #686868;
+  --color-black: #181818;
+  --font-lage: 48px;
+  --font-medium: 28px;
+  --font-rgular: 18px;
+  --font-small: 16px;
+  --font-micro: 14px;
+  --weight-bold: 700;
+  --weight-semi-bold: 600;
+  --weight-regular: 400;
+  --fontStyle-primary: 'Open Sans', sans-serif;
+  --fontStyle-secondary: 'Source Serif Pro', serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  padding: 0;
+}
+
+.fadeInLeft,
+.fadeInRight,
+.fadeInDown,
+.fadeInUp {
+  opacity: 0;
+}
