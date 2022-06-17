@@ -1,0 +1,66 @@
+html {
+  height: 100%;
+  #root {
+    height: 100%;
+  }
+  body {
+    font-family: sans-serif;
+    background-color: gainsboro;
+    box-sizing: border-box;
+    height: 100%;
+
+    h1,
+    h2,
+    h3 {
+      margin: 0;
+    }
+    ul,
+    li {
+      margin: 0;
+    }
+  }
+}
+
+.App {
+  display: flex;
+  height: 100%;
+}
+
+.nav__container {
+  background-color: rgb(36, 36, 36);
+  height: 100%;
+  flex-basis: 150px;
+  color: #ffff;
+  ul {
+    padding: 0;
+    list-style: none;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+
+    li {
+      cursor: pointer;
+      margin: 10px;
+      &:hover {
+        background-color: red;
+      }
+    }
+  }
+}
+
+.main__container {
+  height: 100%;
+  flex-basis: calc(100% - 150px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .main__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 95%;
+  }
+}

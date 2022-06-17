@@ -1,0 +1,33 @@
+.toggle__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  background-color: rgb(181, 181, 181);
+  border-radius: 40px;
+  position: relative;
+
+  &.ON {
+    background-color: rgb(31, 196, 94);
+    transition-duration: 0.5s;
+  }
+
+  &.ON button {
+    transition-duration: 0.5s;
+    left: 53px;
+  }
+
+  button {
+    position: absolute;
+    left: 4px;
+    padding: 0;
+    border: 0px;
+    cursor: pointer;
+    width: 43px;
+    height: 43px;
+    border-radius: 100%;
+    background-color: #ffff;
+    transition-duration: 0.5s;
+  }
+}
