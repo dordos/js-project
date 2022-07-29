@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fun Game</title>
+    <link rel="stylesheet" href="game.css" />
+    <script type="module" src="src/game.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/0bfa33e17c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="shortcut icon" href="#" />
+  </head>
+  <body>
+    <section class="game">
+      <header>
+        <button class="game__button">
+          <i class="fas fa-play"></i>
+        </button>
+        <span class="game__timer">00:00</span>
+        <sapn class="game__score">0</sapn>
+      </header>
+      <section class="game__field"></section>
+    </section>
+    <section class="pop-up pop-up--hide">
+      <header>
+        <button class="pop-up__refresh">
+          <i class="fas fa-redo"></i>
+        </button>
+        <span class="pop-up__message">You have WON!!!</span>
+      </header>
+    </section>
+  </body>
+</html>
