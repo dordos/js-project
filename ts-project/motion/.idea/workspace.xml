@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b0ccbec-a4db-4d95-8e69-95416d68566e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../stack/stack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stack/stack.ts" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/dialog/dialog.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/dialog/input/media-input.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/dialog/input/text-input.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/page/item/image.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/page/item/note.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/page/item/todo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/page/item/video.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/page/page.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../drag-items/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,11 +36,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Project.color": "582c59",
+    "Project.color": "204a46",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/dordos/development/git-project/toy-project/ts-project/stack",
+    "last_opened_file_path": "/Users/dordos/development/git-project/toy-project/ts-project/motion/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -41,6 +50,23 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/style" />
+      <recent name="$PROJECT_DIR$/img" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/motion/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -52,6 +78,8 @@
       <workItem from="1660169343208" duration="555000" />
       <workItem from="1660940578537" duration="26000" />
       <workItem from="1660940627758" duration="99000" />
+      <workItem from="1660940769578" duration="477000" />
+      <workItem from="1660941432874" duration="1322000" />
     </task>
     <servers />
   </component>
@@ -61,6 +89,17 @@
       <list>
         <option value="$PROJECT_DIR$/stack.js" />
       </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
     </option>
   </component>
 </project>
