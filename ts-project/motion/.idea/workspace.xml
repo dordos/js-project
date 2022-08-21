@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b0ccbec-a4db-4d95-8e69-95416d68566e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/dialog/dialog.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/dialog/input/media-input.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/dialog/input/text-input.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/page/item/image.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/page/item/note.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/page/item/todo.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/page/item/video.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/page/page.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../drag-items/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,22 +24,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Project.color": "204a46",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/dordos/development/git-project/toy-project/ts-project/motion/src",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Project.color&quot;: &quot;204a46&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dordos/development/git-project/toy-project/ts-project/motion/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -79,7 +69,8 @@
       <workItem from="1660940578537" duration="26000" />
       <workItem from="1660940627758" duration="99000" />
       <workItem from="1660940769578" duration="477000" />
-      <workItem from="1660941432874" duration="1322000" />
+      <workItem from="1660941432874" duration="1479000" />
+      <workItem from="1661016559834" duration="238000" />
     </task>
     <servers />
   </component>
